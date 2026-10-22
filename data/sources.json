@@ -1,0 +1,413 @@
+{
+  "洪范": {
+    "title": "《尚书·洪范》",
+    "quote": "水曰润下。",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/洪範",
+    "context": "论五行之性，取滋润向下、惠及根本的正面水德。"
+  },
+  "蒙": {
+    "title": "《周易·蒙》",
+    "quote": "山下出泉，蒙；君子以果行育德。",
+    "url": "https://zh.wikisource.org/zh-hans/周易/蒙",
+    "context": "由山泉初发说养正育德，取成长与涵养，不取蒙昧作贬义。"
+  },
+  "井": {
+    "title": "《周易·井》",
+    "quote": "井养而不穷也。",
+    "url": "https://zh.wikisource.org/zh-hans/周易/井",
+    "context": "论井水养人，取长久供养与公共善意。"
+  },
+  "益": {
+    "title": "《周易·益》",
+    "quote": "君子以见善则迁，有过则改。",
+    "url": "https://zh.wikisource.org/zh-hans/周易/益",
+    "context": "取自我更新的正面训义；水字是本轮补水拟字，不冒称原文。"
+  },
+  "大禹": {
+    "title": "《尚书·大禹谟》",
+    "quote": "德惟善政，政在养民。",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/大禹謨",
+    "context": "取养民之德，以润物的水象转写；不取权势功名。"
+  },
+  "说命": {
+    "title": "《尚书·说命上》",
+    "quote": "若岁大旱，用汝作霖雨。",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/說命上",
+    "context": "求贤如盼及时雨，原句正面；霖在本库禁用，只转取雨润之义。"
+  },
+  "循吏": {
+    "title": "《史记·循吏列传》",
+    "quote": "奉职循理，亦可以为治，何必威严哉？",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷119",
+    "context": "取循理而治、宽和不苛；水德为顺理利物的拟象。"
+  },
+  "管晏": {
+    "title": "《史记·管晏列传》",
+    "quote": "其为政也，善因祸而为福，转败而为功。",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷062",
+    "context": "取应变能力和善政；不截败事或杀伐作美典。"
+  },
+  "谏逐": {
+    "title": "李斯《谏逐客书》",
+    "quote": "河海不择细流，故能就其深。",
+    "url": "https://zh.wikisource.org/zh-hans/諫逐客書",
+    "context": "劝广纳人才，取细流汇深与包容，不以作者一生作担保。"
+  },
+  "水经": {
+    "title": "郦道元《水经注·江水》",
+    "quote": "素湍绿潭，回清倒影。",
+    "url": "https://zh.wikisource.org/zh-hans/水經注/34",
+    "context": "三峡春冬的明净山水；只取此段，不取秋日猿鸣的凄苦段。"
+  },
+  "岳阳": {
+    "title": "范仲淹《岳阳楼记》",
+    "quote": "岸芷汀兰，郁郁青青。",
+    "url": "https://zh.wikisource.org/zh-hans/岳陽樓記",
+    "context": "取春和景明一段的水岸草木；全文以不以物喜、不以己悲收束。"
+  },
+  "秋暝": {
+    "title": "王维《山居秋暝》",
+    "quote": "明月松间照，清泉石上流。",
+    "url": "https://zh.wikisource.org/zh-hans/山居秋暝",
+    "context": "山中秋夜清新安适，泉、松、月相映。"
+  },
+  "青溪": {
+    "title": "王维《青溪》",
+    "quote": "声喧乱石中，色静深松里。",
+    "url": "https://zh.wikisource.org/zh-hans/全唐詩/卷125",
+    "context": "沿溪观景而自得，取声色相映与心境闲适。"
+  },
+  "春夜": {
+    "title": "杜甫《春夜喜雨》",
+    "quote": "好雨知时节。",
+    "url": "https://zh.wikisource.org/zh-hans/春夜喜雨",
+    "context": "喜春雨滋养万物，整首为正面喜雨语境。",
+    "variant": "下一句“当春乃发生”，底本在“乃”后夹注一作“及”。"
+  },
+  "绝句": {
+    "title": "杜甫《绝句二首》其一",
+    "quote": "迟日江山丽，春风花草香。",
+    "url": "https://zh.wikisource.org/zh-hans/絕句（遲日江山麗）",
+    "context": "明丽春景，取融融暖意与水岸生机。"
+  },
+  "江畔": {
+    "title": "杜甫《江畔独步寻花七绝句》其六",
+    "quote": "留连戏蝶时时舞，自在娇莺恰恰啼。",
+    "url": "https://zh.wikisource.org/zh-hans/江畔獨步尋花七絕句",
+    "context": "选第六首赏花欣悦之境，不混引其他首的愁绪。"
+  },
+  "钱塘": {
+    "title": "白居易《钱塘湖春行》",
+    "quote": "几处早莺争暖树，谁家新燕啄春泥。",
+    "url": "https://zh.wikisource.org/zh-hans/錢塘湖春行",
+    "context": "湖畔早春游赏，明快欣悦；水字由湖景转写。"
+  },
+  "白湖": {
+    "title": "白居易《钱塘湖春行》",
+    "quote": "最爱湖东行不足，绿杨阴里白沙堤。",
+    "url": "https://zh.wikisource.org/zh-hans/錢塘湖春行",
+    "context": "取同诗湖东绿杨白堤的喜爱之情。"
+  },
+  "忆南": {
+    "title": "白居易《忆江南》其一",
+    "quote": "日出江花红胜火，春来江水绿如蓝。",
+    "url": "https://zh.wikisource.org/zh-hans/憶江南_(白居易)",
+    "context": "眷念江南美景，水色鲜明；不把火色拟入名字。"
+  },
+  "渔子": {
+    "title": "张志和《渔歌子》",
+    "quote": "西塞山前白鹭飞，桃花流水鳜鱼肥。",
+    "url": "https://zh.wikisource.org/zh-hans/漁歌子_(張志和)",
+    "context": "水乡生活安适自足，取桃花流水与自在之意。"
+  },
+  "望潮": {
+    "title": "柳永《望海潮·东南形胜》",
+    "quote": "有三秋桂子，十里荷花。",
+    "url": "https://zh.wikisource.org/zh-hans/望海潮_(柳永)",
+    "context": "写杭州繁华与湖山之美，桂荷并置。"
+  },
+  "小池": {
+    "title": "杨万里《小池》",
+    "quote": "泉眼无声惜细流，树阴照水爱晴柔。",
+    "url": "https://zh.wikisource.org/zh-hans/小池",
+    "context": "初夏池塘温柔明快，取珍惜、细润与相照。"
+  },
+  "晓净": {
+    "title": "杨万里《晓出净慈寺送林子方》",
+    "quote": "接天莲叶无穷碧，映日荷花别样红。",
+    "url": "https://zh.wikisource.org/zh-hans/曉出淨慈寺送林子方",
+    "context": "送别题材而通篇写明丽荷景，无哀伤怨怼措辞。"
+  },
+  "春日": {
+    "title": "朱熹《春日》",
+    "quote": "胜日寻芳泗水滨，无边光景一时新。",
+    "url": "https://zh.wikisource.org/zh-hans/春日_(朱熹)",
+    "context": "寻芳悟理之诗，取向学更新；泗为具体水名。"
+  },
+  "读书": {
+    "title": "朱熹《观书有感二首》其一",
+    "quote": "问渠那得清如许？为有源头活水来。",
+    "url": "https://zh.wikisource.org/zh-hans/觀書有感",
+    "context": "借水明读书之理，活水喻持续学习。"
+  },
+  "滁州": {
+    "title": "欧阳修《醉翁亭记》",
+    "quote": "酿泉为酒，泉香而酒洌。",
+    "url": "https://zh.wikisource.org/zh-hans/醉翁亭記",
+    "context": "山水宴游与民同乐；取泉之香洁，不取饮酒为生活要求。"
+  },
+  "兰芽": {
+    "title": "苏轼《浣溪沙·游蕲水清泉寺》",
+    "quote": "山下兰芽短浸溪，松间沙路净无泥。",
+    "url": "https://zh.wikisource.org/zh-hans/浣溪沙_(蘇軾)",
+    "context": "由清溪兰芽转入乐观自勉，正面昂扬。"
+  },
+  "湖苏": {
+    "title": "苏轼《饮湖上初晴后雨二首》其二",
+    "quote": "山色空濛雨亦奇。",
+    "url": "https://zh.wikisource.org/zh-hans/飲湖上初晴後雨二首",
+    "context": "赞西湖晴雨皆美；不截成天气播报式姓名。"
+  },
+  "西江": {
+    "title": "辛弃疾《西江月·夜行黄沙道中》",
+    "quote": "稻花香里说丰年，听取蛙声一片。",
+    "url": "https://zh.wikisource.org/zh-hans/西江月_(辛棄疾)",
+    "context": "夜行田野与丰年欣喜，雨点虽出现但无悲情。"
+  },
+  "篱落": {
+    "title": "范成大《四时田园杂兴》",
+    "quote": "梅子金黄杏子肥，麦花雪白菜花稀。",
+    "url": "https://zh.wikisource.org/zh-hans/四時田園雜興",
+    "context": "取夏日田园成熟生机，水字为润田拟字，雪白不是降雪。"
+  },
+  "三衢": {
+    "title": "曾几《三衢道中》",
+    "quote": "梅子黄时日日晴。",
+    "url": "https://zh.wikisource.org/zh-hans/三衢道中",
+    "context": "行旅赏景轻快有兴，取溪行与绿阴。",
+    "variant": "小溪泛尽却山行；链接底本作“汛尽”，常见选本作“泛尽”。"
+  },
+  "初湖": {
+    "title": "徐俯《春游湖》",
+    "quote": "双飞燕子几时回？夹岸桃花蘸水开。",
+    "url": "https://zh.wikisource.org/zh-hans/春日遊湖上",
+    "context": "春水花开与借船过桥的游兴。"
+  },
+  "幽居": {
+    "title": "陆游《幽居初夏》",
+    "quote": "水满有时观下鹭，草深无处不鸣蛙。",
+    "url": "https://zh.wikisource.org/zh-hans/幽居初夏",
+    "context": "闲居自适、赏水观物，结尾写茶瓯古书。"
+  },
+  "社日": {
+    "title": "王驾《社日》",
+    "quote": "鹅湖山下稻粱肥，豚栅鸡栖半掩扉。",
+    "url": "https://zh.wikisource.org/zh-hans/社日",
+    "context": "田园丰收、乡邻社祭，取物阜人和。"
+  },
+  "晚眺": {
+    "title": "王维《新晴野望》",
+    "quote": "白水明田外，碧峰出山后。",
+    "url": "https://zh.wikisource.org/zh-hans/新晴野望",
+    "context": "雨后田野丰润开阔，结尾农事正忙。"
+  },
+  "蔓草": {
+    "title": "《诗经·郑风·野有蔓草》",
+    "quote": "有美一人，清扬婉兮。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/野有蔓草",
+    "context": "邂逅相遇，彼此欣悦；草露与人的风神同在。"
+  },
+  "溱洧": {
+    "title": "《诗经·郑风·溱洧》",
+    "quote": "溱与洧，方涣涣兮。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/溱洧",
+    "context": "春水与游春男女，互赠芍药；取生机和友好。"
+  },
+  "衡门": {
+    "title": "《诗经·陈风·衡门》",
+    "quote": "泌之洋洋，可以乐饥。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/衡門",
+    "context": "安于简朴而自得；泌在此按水名读bì，姓名另选水意拟字。"
+  },
+  "鹿鸣": {
+    "title": "《诗经·小雅·鹿鸣》",
+    "quote": "我有嘉宾，鼓瑟吹笙。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/鹿鳴",
+    "context": "宴宾礼乐、相互嘉许；水字是本轮另拟，不把鹿鸣说成水诗。"
+  },
+  "菁莪": {
+    "title": "《诗经·小雅·菁菁者莪》",
+    "quote": "菁菁者莪，在彼中沚。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/菁菁者莪",
+    "context": "见君子而喜，水中草木繁茂。"
+  },
+  "天保": {
+    "title": "《诗经·小雅·天保》",
+    "quote": "如月之恒，如日之升。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/天保",
+    "context": "祝福长久安康；水字为泽养之意另拟。"
+  },
+  "甘棠": {
+    "title": "《诗经·召南·甘棠》",
+    "quote": "蔽芾甘棠，勿翦勿伐，召伯所茇。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/甘棠",
+    "context": "爱树怀德、纪念善政；以水润棠木为新拟逻辑。"
+  },
+  "桃夭": {
+    "title": "《诗经·周南·桃夭》",
+    "quote": "桃之夭夭，其叶蓁蓁。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/桃夭",
+    "context": "婚姻祝福、家室和美；取繁茂草木，水字为润木另拟。"
+  },
+  "螽斯": {
+    "title": "《诗经·周南·螽斯》",
+    "quote": "宜尔子孙。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/螽斯",
+    "context": "家族祝福，取安和延续，不转为对孩子生育的要求。"
+  },
+  "丰年": {
+    "title": "《诗经·周颂·丰年》",
+    "quote": "丰年多黍多稌，亦有高廪，万亿及秭。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/豐年",
+    "context": "丰收祭祀，取润田与岁稔，不取数量财富口号。"
+  },
+  "叔田": {
+    "title": "《诗经·郑风·叔于田》",
+    "quote": "洵美且仁。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/叔于田",
+    "context": "赞美人物仁善美好；洵为诚然，水旁是字形选择，不歪释为原句讲水。"
+  },
+  "蒹葭": {
+    "title": "《诗经·秦风·蒹葭》",
+    "quote": "蒹葭苍苍，白露为霜。",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/蒹葭",
+    "context": "追寻不得，伊露为用户明确豁免的存量火种；不作为新名扩写母本。"
+  },
+  "舞雩": {
+    "title": "《论语·先进》",
+    "quote": "咏而归。",
+    "url": "https://zh.wikisource.org/zh-hans/論語/先進第十一",
+    "context": "曾点言志，孔子赞许；取日常礼乐与自然相和。"
+  },
+  "雍也": {
+    "title": "《论语·雍也》",
+    "quote": "知者乐水，仁者乐山。",
+    "url": "https://zh.wikisource.org/zh-hans/論語/雍也第六",
+    "context": "知仁相济，取水之灵动；知按现代姓名读zhī。"
+  },
+  "尽心": {
+    "title": "《孟子·尽心上》",
+    "quote": "有如时雨化之者。",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/盡心上",
+    "context": "论教育如及时雨，因材而教，生长自得。"
+  },
+  "离娄": {
+    "title": "《孟子·离娄下》",
+    "quote": "源泉混混，不舍昼夜，盈科而后进。",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/離婁下",
+    "context": "泉水有本、积累有序，取扎实向学。"
+  },
+  "观澜": {
+    "title": "《孟子·尽心上》",
+    "quote": "观水有术，必观其澜。",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/盡心上",
+    "context": "观水求本，微为本轮取微察之义另拟，非原文连词。"
+  },
+  "荀子": {
+    "title": "《荀子·劝学》",
+    "quote": "积水成渊，蛟龙生焉。",
+    "url": "https://zh.wikisource.org/zh-hans/荀子/勸學篇",
+    "context": "论积累与学习，取积小成深，不取神兽作人设。"
+  },
+  "玉德": {
+    "title": "《礼记·聘义》",
+    "quote": "温润而泽，仁也。",
+    "url": "https://zh.wikisource.org/zh-hans/禮記/聘義",
+    "context": "以玉比德，水旁润与温均承温和有度。"
+  },
+  "中庸": {
+    "title": "《礼记·中庸》",
+    "quote": "溥博渊泉，而时出之。",
+    "url": "https://zh.wikisource.org/zh-hans/禮記/中庸",
+    "context": "借渊泉喻德量与适时发用，不以圣人身份要求孩子。"
+  },
+  "老八": {
+    "title": "《老子》第八章",
+    "quote": "上善若水。水善利万物而不争。",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "context": "利物不争，取柔和的自主与善意。"
+  },
+  "老三二": {
+    "title": "《老子》第三十二章",
+    "quote": "天地相合，以降甘露。",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "context": "天地和合、甘露均施；露字21画不用于新增姓名，转用水旁。"
+  },
+  "老七八": {
+    "title": "《老子》第七十八章",
+    "quote": "天下莫柔弱于水，而攻坚强者莫之能胜。",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "context": "水柔而有力，取韧性，不取攻伐。"
+  },
+  "庄德": {
+    "title": "《庄子·德充符》",
+    "quote": "人莫鉴于流水，而鉴于止水。",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/德充符",
+    "context": "水静可鉴，取心定与自省。"
+  },
+  "庄养": {
+    "title": "《庄子·养生主》",
+    "quote": "依乎天理，批大郤，导大窾，因其固然。",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/養生主",
+    "context": "取依理而行的熟练；水拟字表达顺势，避刀与宰割字象。"
+  },
+  "庄秋": {
+    "title": "《庄子·秋水》",
+    "quote": "是鱼乐也。",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/秋水",
+    "context": "濠梁观鱼，取观物之乐与理解他者。",
+    "variant": "链接底本作“是鱼乐也”，常见选本作“是鱼之乐也”。"
+  },
+  "世言": {
+    "title": "《世说新语·言语》",
+    "quote": "千岩竞秀，万壑争流。",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/言語",
+    "context": "顾长康谈会稽山水，欣赏自然；不混入同篇其他褒贬故事。"
+  },
+  "世德": {
+    "title": "《世说新语·德行》",
+    "quote": "吾时月不见黄叔度，则鄙吝之心已复生矣。",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/德行",
+    "context": "黄宪德量感化友人；取温厚影响，水字为润心拟象。"
+  },
+  "陶饮": {
+    "title": "陶渊明《饮酒》其五",
+    "quote": "山气日夕佳，飞鸟相与还。",
+    "url": "https://zh.wikisource.org/zh-hans/飲酒二十首",
+    "context": "其五自然自适，水字另拟；不引用组诗其他篇的愁语。"
+  },
+  "陶园": {
+    "title": "陶渊明《归园田居》其一",
+    "quote": "守拙归园田。",
+    "url": "https://zh.wikisource.org/zh-hans/歸園田居五首",
+    "context": "其一归返自然而喜，取朴素自主；非以贫寒为美德要求。"
+  },
+  "咏絮": {
+    "title": "《世说新语·言语》咏雪条",
+    "quote": "未若柳絮因风起。",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/言語",
+    "context": "家庭雅集咏雪，取才思与水凝之洁。"
+  },
+  "橘颂": {
+    "title": "《楚辞·九章·橘颂》",
+    "quote": "秉德无私，参天地兮。",
+    "url": "https://zh.wikisource.org/zh-hans/楚辭/九章",
+    "context": "全篇赞橘树独立坚贞与无私，水字为润树养德另拟，不冒称原句连词。"
+  },
+  "钟山": {
+    "title": "苏轼《石钟山记》",
+    "quote": "南声函胡，北音清越。",
+    "url": "https://zh.wikisource.org/zh-hans/石鐘山記",
+    "context": "实地考察水石发声，取清越音色与求实之意；不把批评考据失误误当负面人生典。"
+  }
+}

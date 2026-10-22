@@ -1,0 +1,614 @@
+[
+  {
+    "source": "三衢",
+    "url": "https://zh.wikisource.org/zh-hans/三衢道中",
+    "status": 200,
+    "quote_found": true,
+    "title": "三衢道中 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "5f7cc24eae0c7406b3e3e8383a5ca123804019ed8807d51caa46cbf180e46236"
+  },
+  {
+    "source": "世德",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/德行",
+    "status": 200,
+    "quote_found": true,
+    "title": "世说新语/德行 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "fd7b4103747ca0653307abface9b538dcc10db992be4d9a2a2fd65d236c9e917"
+  },
+  {
+    "source": "世言",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/言語",
+    "status": 200,
+    "quote_found": true,
+    "title": "世说新语/言语 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "06bf31b3e633566a1f46e45f5f0c50c4a24952df6fdf3f9baeaa75e454168730"
+  },
+  {
+    "source": "中庸",
+    "url": "https://zh.wikisource.org/zh-hans/禮記/中庸",
+    "status": 200,
+    "quote_found": true,
+    "title": "礼记/中庸 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "969f5f69524a3b91479ea0ccd82c1cddd3bd25950be7a7468c6a5342295c27ea"
+  },
+  {
+    "source": "丰年",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/豐年",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/丰年 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "727b09a322b8833212949d825f6ca12f61ab81790fa24222581934a0cc300fad"
+  },
+  {
+    "source": "井",
+    "url": "https://zh.wikisource.org/zh-hans/周易/井",
+    "status": 200,
+    "quote_found": true,
+    "title": "周易/井 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "acd3c16b11eea8e6ea9cbda4f70e16544dcfb9f2aa60d7d82428f0859ce47d6d"
+  },
+  {
+    "source": "兰芽",
+    "url": "https://zh.wikisource.org/zh-hans/浣溪沙_(蘇軾)",
+    "status": 200,
+    "quote_found": true,
+    "title": "浣溪沙 (苏轼) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "04fa09a6a9ef9775dfab36045d648cf5bb1c9e455c9e460ed0cdb978788ba5fa"
+  },
+  {
+    "source": "初湖",
+    "url": "https://zh.wikisource.org/zh-hans/春日遊湖上",
+    "status": 200,
+    "quote_found": true,
+    "title": "春日游湖上 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "78ec8b05cec1b87d3454a63cbd07ffffbaa72f066f7a3d230ba4e015018a8e2b"
+  },
+  {
+    "source": "叔田",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/叔于田",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/叔于田 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "6da7d6626b316119bd1b38dbc42f620cfaff73e58e095f7c2623753d2a66f2cf"
+  },
+  {
+    "source": "咏絮",
+    "url": "https://zh.wikisource.org/zh-hans/世說新語/言語",
+    "status": 200,
+    "quote_found": true,
+    "title": "世说新语/言语 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "06bf31b3e633566a1f46e45f5f0c50c4a24952df6fdf3f9baeaa75e454168730"
+  },
+  {
+    "source": "大禹",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/大禹謨",
+    "status": 200,
+    "quote_found": true,
+    "title": "尚书/大禹谟 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "f6cddbc01fca2cecf68b4563fcbd6dc816cb63893d23395dea5172f07bd06c63"
+  },
+  {
+    "source": "天保",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/天保",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/天保 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "080ec72b7fb281be35aaca2bb0ff17bc4590a013fcef15cf840007deeb02a319"
+  },
+  {
+    "source": "小池",
+    "url": "https://zh.wikisource.org/zh-hans/小池",
+    "status": 200,
+    "quote_found": true,
+    "title": "小池 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "5926596cef3ec51365abe7dff9b192e186956b7adcc3b36c37014dbf5b1a3aa9"
+  },
+  {
+    "source": "尽心",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/盡心上",
+    "status": 200,
+    "quote_found": true,
+    "title": "孟子/尽心上 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "af20bad682d672ad1b6df2a76043603dff31a2df488ae759a72b2936ffdeaefb"
+  },
+  {
+    "source": "岳阳",
+    "url": "https://zh.wikisource.org/zh-hans/岳陽樓記",
+    "status": 200,
+    "quote_found": true,
+    "title": "岳阳楼记 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "e88868b1858ee4e72fddd2067c40cc7ed86eef085962f428806ec47b8edf9a9d"
+  },
+  {
+    "source": "幽居",
+    "url": "https://zh.wikisource.org/zh-hans/幽居初夏",
+    "status": 200,
+    "quote_found": true,
+    "title": "幽居初夏 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "1ec8c8732049e0dd7f812df05dd593a9a40278018993f05e6a4f7d63d3f0f5a0"
+  },
+  {
+    "source": "庄养",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/養生主",
+    "status": 200,
+    "quote_found": true,
+    "title": "庄子/养生主 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a15d6c867d7f2e365bbf11c838b22e2c828cd87120d58aca28b4e9790681714b"
+  },
+  {
+    "source": "庄德",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/德充符",
+    "status": 200,
+    "quote_found": true,
+    "title": "庄子/德充符 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "3bedaf1848c45dac0986c646c0212f738ce3a909d8eab989228066a8ddcc6c7d"
+  },
+  {
+    "source": "庄秋",
+    "url": "https://zh.wikisource.org/zh-hans/莊子/秋水",
+    "status": 200,
+    "quote_found": true,
+    "title": "庄子/秋水 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "c59366b712ea8c2a1d13ffb3de786d37a93817cc2739a78471b166caa0c9e1df"
+  },
+  {
+    "source": "循吏",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷119",
+    "status": 200,
+    "quote_found": true,
+    "title": "史记/卷119 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "2fce5969dedea64419adae04f76a3662730c9f4ad95bdc157cca589e214de91c"
+  },
+  {
+    "source": "忆南",
+    "url": "https://zh.wikisource.org/zh-hans/憶江南_(白居易)",
+    "status": 200,
+    "quote_found": true,
+    "title": "忆江南 (白居易) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "bd9fb1285de3abfe9bbaf959af8e5576cbec7d79893b0b0bc3cfa4cf8069f097"
+  },
+  {
+    "source": "春夜",
+    "url": "https://zh.wikisource.org/zh-hans/春夜喜雨",
+    "status": 200,
+    "quote_found": true,
+    "title": "春夜喜雨 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "1c83e70314a8a32e95fb55e96c6ac2a960eee9f7ef499a9292c8dd05e11b03c7"
+  },
+  {
+    "source": "春日",
+    "url": "https://zh.wikisource.org/zh-hans/春日_(朱熹)",
+    "status": 200,
+    "quote_found": true,
+    "title": "春日 (朱熹) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "888f4683187294c8d1f8c0812cfc3e312f3f8aa1ab06c573dcd12bd37fbc867d"
+  },
+  {
+    "source": "晓净",
+    "url": "https://zh.wikisource.org/zh-hans/曉出淨慈寺送林子方",
+    "status": 200,
+    "quote_found": true,
+    "title": "晓出净慈寺送林子方 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a7feb97a7172afbb78b021c902b46040e62687a2c1169fdf81bee04f6627e2c0"
+  },
+  {
+    "source": "晚眺",
+    "url": "https://zh.wikisource.org/zh-hans/新晴野望",
+    "status": 200,
+    "quote_found": true,
+    "title": "新晴野望 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "7852285ac72b4bcb8828f352283ad3c8b7877670be458ee52cd1cd0c84290399"
+  },
+  {
+    "source": "望潮",
+    "url": "https://zh.wikisource.org/zh-hans/望海潮_(柳永)",
+    "status": 200,
+    "quote_found": true,
+    "title": "望海潮 (柳永) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "1697a7d06d2e8cf4bf536b61ed68e5463b1c416f0c197e597c0e4a9072f4664c"
+  },
+  {
+    "source": "桃夭",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/桃夭",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/桃夭 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "83cb075add52a3f8ce9656037dc7df9048389c5085d0c116f4bfe785774dbc2e"
+  },
+  {
+    "source": "橘颂",
+    "url": "https://zh.wikisource.org/zh-hans/楚辭/九章",
+    "status": 200,
+    "quote_found": true,
+    "title": "楚辞/九章 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "8852f2ced769a4f4800286b11632c402f828753a1b09bc5f9f15aaaef51f1a38"
+  },
+  {
+    "source": "水经",
+    "url": "https://zh.wikisource.org/zh-hans/水經注/34",
+    "status": 200,
+    "quote_found": true,
+    "title": "水经注/34 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "0a6985c7f2052b7dac13bff50ba2c7c4a233a15ec1f7329b090d6c02a2ab28e4"
+  },
+  {
+    "source": "江畔",
+    "url": "https://zh.wikisource.org/zh-hans/江畔獨步尋花七絕句",
+    "status": 200,
+    "quote_found": true,
+    "title": "江畔独步寻花七绝句 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "b755c4b3040a99cf8088a5b61cd4049040d1e19ffb0fbc7926e4c12f97cd5622"
+  },
+  {
+    "source": "洪范",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/洪範",
+    "status": 200,
+    "quote_found": true,
+    "title": "尚书/洪范 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "3ed4b6287891bfa7678f4a533968fc75e675f2f92aaabb23bbf6d53c90c4aa39"
+  },
+  {
+    "source": "渔子",
+    "url": "https://zh.wikisource.org/zh-hans/漁歌子_(張志和)",
+    "status": 200,
+    "quote_found": true,
+    "title": "渔歌子 (张志和) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "80420c5556d28666e875b7a25d49eecdedacd99ab758cc1b464d6fd7173f248c"
+  },
+  {
+    "source": "湖苏",
+    "url": "https://zh.wikisource.org/zh-hans/飲湖上初晴後雨二首",
+    "status": 200,
+    "quote_found": true,
+    "title": "饮湖上初晴后雨二首 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "e6d9809a6152e6c95d7b1e98f587072a9dd73897f351c5fc83ab71e336db3a5a"
+  },
+  {
+    "source": "溱洧",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/溱洧",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/溱洧 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "81b1b11d819a6e248081c13a84b793bcc8f5d886051eb39cf2ebddd00ec4804b"
+  },
+  {
+    "source": "滁州",
+    "url": "https://zh.wikisource.org/zh-hans/醉翁亭記",
+    "status": 200,
+    "quote_found": true,
+    "title": "醉翁亭记 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "292f016930b7359eee2800dbe5804fc13ae3109fe0266412ae5196005732f71e"
+  },
+  {
+    "source": "玉德",
+    "url": "https://zh.wikisource.org/zh-hans/禮記/聘義",
+    "status": 200,
+    "quote_found": true,
+    "title": "礼记/聘义 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "906adfe5390991e5a7f8d8e76eabf1e9db6a67ff4e254bc15c55ed6344a61b6a"
+  },
+  {
+    "source": "甘棠",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/甘棠",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/甘棠 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "548ecec460fe7c7cf5dcbd547ee8a288ca85055f658607a9bc73cc19581aa373"
+  },
+  {
+    "source": "白湖",
+    "url": "https://zh.wikisource.org/zh-hans/錢塘湖春行",
+    "status": 200,
+    "quote_found": true,
+    "title": "钱塘湖春行 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "9835cb03e3b0e7f6836af06984f9ab85f049de40101df304a2b3dd649d65c0f7"
+  },
+  {
+    "source": "益",
+    "url": "https://zh.wikisource.org/zh-hans/周易/益",
+    "status": 200,
+    "quote_found": true,
+    "title": "周易/益 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "b5d024bd44a6a5a8396ab6c79ceabb759e65d26c275bd250e2bdc3b358090542"
+  },
+  {
+    "source": "社日",
+    "url": "https://zh.wikisource.org/zh-hans/社日",
+    "status": 200,
+    "quote_found": true,
+    "title": "社日 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "69e385b3c90456acf2c979f294bc1c740f9c9d83fede516552ae6e6f56e0ab27"
+  },
+  {
+    "source": "离娄",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/離婁下",
+    "status": 200,
+    "quote_found": true,
+    "title": "孟子/离娄下 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "c4f2a8eadeab3ee979bda86c96d0688f7cd0decdde942b3750dc691067078b5d"
+  },
+  {
+    "source": "秋暝",
+    "url": "https://zh.wikisource.org/zh-hans/山居秋暝",
+    "status": 200,
+    "quote_found": true,
+    "title": "山居秋暝 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a4a4fd54f8afab8beb98ee3df8769fb1400463bf4af2a0e5aff8f31fc4d03c5a"
+  },
+  {
+    "source": "管晏",
+    "url": "https://zh.wikisource.org/zh-hans/史記/卷062",
+    "status": 200,
+    "quote_found": true,
+    "title": "史记/卷062 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "b4987edb6ddcb44f972e1d2c44baafd0e0707f950c4d0b63b12b896d43125f8d"
+  },
+  {
+    "source": "篱落",
+    "url": "https://zh.wikisource.org/zh-hans/四時田園雜興",
+    "status": 200,
+    "quote_found": true,
+    "title": "四时田园杂兴 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "87ef019a9ebbd162c17318e1e886fcba1727e6564a9cb4c069decc09cd867246"
+  },
+  {
+    "source": "绝句",
+    "url": "https://zh.wikisource.org/zh-hans/絕句（遲日江山麗）",
+    "status": 200,
+    "quote_found": true,
+    "title": "绝句（迟日江山丽） - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "5bd39988d7d7dae532b2310ff9b40cb4db36bdaafc1e758284c69a7408f2136d"
+  },
+  {
+    "source": "老七八",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "status": 200,
+    "quote_found": true,
+    "title": "道德经 (王弼本) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a6c61d00e499a297c3437bb12355878e3c8ae5b20b8767ba301153371db0fbf2"
+  },
+  {
+    "source": "老三二",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "status": 200,
+    "quote_found": true,
+    "title": "道德经 (王弼本) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a6c61d00e499a297c3437bb12355878e3c8ae5b20b8767ba301153371db0fbf2"
+  },
+  {
+    "source": "老八",
+    "url": "https://zh.wikisource.org/zh-hans/道德經_(王弼本)",
+    "status": 200,
+    "quote_found": true,
+    "title": "道德经 (王弼本) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a6c61d00e499a297c3437bb12355878e3c8ae5b20b8767ba301153371db0fbf2"
+  },
+  {
+    "source": "舞雩",
+    "url": "https://zh.wikisource.org/zh-hans/論語/先進第十一",
+    "status": 200,
+    "quote_found": true,
+    "title": "论语/先进第十一 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "aba7bfa2e316ceada03f351d4b49ad87fdf64a00eefcf780dd2c9fe0de0f02f5"
+  },
+  {
+    "source": "荀子",
+    "url": "https://zh.wikisource.org/zh-hans/荀子/勸學篇",
+    "status": 200,
+    "quote_found": true,
+    "title": "荀子/劝学篇 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "071abc17daeec183e11e98918b9f2da5b2de177b96d0b8195a1a1c89db4311e7"
+  },
+  {
+    "source": "菁莪",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/菁菁者莪",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/菁菁者莪 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "e8e1e05515448fd532cfb5771da6ca397e701e727ff3ec2a48542c48347c1e39"
+  },
+  {
+    "source": "蒙",
+    "url": "https://zh.wikisource.org/zh-hans/周易/蒙",
+    "status": 200,
+    "quote_found": true,
+    "title": "周易/蒙 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "bb7fcadca1e2933bb9a45593be15fee87615646f406dff8ccb1a9a23684e1690"
+  },
+  {
+    "source": "蒹葭",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/蒹葭",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/蒹葭 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "f77d2a710e4a694a3a57eb7d163b58db6ea8cb0c88cb4ebeef44bfc539589414"
+  },
+  {
+    "source": "蔓草",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/野有蔓草",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/野有蔓草 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "3353b02c9442f737f69058717e33a32a295367fba34c71c28ed3e3d0b31442b1"
+  },
+  {
+    "source": "螽斯",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/螽斯",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/螽斯 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "716c79e2decb6fe98e51e2ffc961d63364e6830205582b34f4dffee825e3245a"
+  },
+  {
+    "source": "衡门",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/衡門",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/衡门 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "36e475da892568ebd6ef09ebc134a926d6d17127d2f3b1767c2f337e9f5f2040"
+  },
+  {
+    "source": "西江",
+    "url": "https://zh.wikisource.org/zh-hans/西江月_(辛棄疾)",
+    "status": 200,
+    "quote_found": true,
+    "title": "西江月 (辛弃疾) - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "1bcd0603c8315cedeb225a95c247e7d819b046a294972a3fe7f6a0c192fa673c"
+  },
+  {
+    "source": "观澜",
+    "url": "https://zh.wikisource.org/zh-hans/孟子/盡心上",
+    "status": 200,
+    "quote_found": true,
+    "title": "孟子/尽心上 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "af20bad682d672ad1b6df2a76043603dff31a2df488ae759a72b2936ffdeaefb"
+  },
+  {
+    "source": "说命",
+    "url": "https://zh.wikisource.org/zh-hans/尚書/說命上",
+    "status": 200,
+    "quote_found": true,
+    "title": "尚书/说命上 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "77817e1a4459b83a8a0e8a34de68349b13a35c220d5cbb0fc81411a249a3e87d"
+  },
+  {
+    "source": "读书",
+    "url": "https://zh.wikisource.org/zh-hans/觀書有感",
+    "status": 200,
+    "quote_found": true,
+    "title": "观书有感 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "ce83af8a60167fc4f5c9c9e1440a2297e04fbe8455410966a09e26170497942d"
+  },
+  {
+    "source": "谏逐",
+    "url": "https://zh.wikisource.org/zh-hans/諫逐客書",
+    "status": 200,
+    "quote_found": true,
+    "title": "谏逐客书 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "6736a3e6e5f305f6d756803c231df58e30547d42f1eb4c6ae44fd4841052a2a8"
+  },
+  {
+    "source": "钟山",
+    "url": "https://zh.wikisource.org/zh-hans/石鐘山記",
+    "status": 200,
+    "quote_found": true,
+    "title": "石钟山记 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "a296c4924d239f28f4fd7391e1f67bbdfa9b630ab4bc5d71155a4eeef9703af7"
+  },
+  {
+    "source": "钱塘",
+    "url": "https://zh.wikisource.org/zh-hans/錢塘湖春行",
+    "status": 200,
+    "quote_found": true,
+    "title": "钱塘湖春行 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "9835cb03e3b0e7f6836af06984f9ab85f049de40101df304a2b3dd649d65c0f7"
+  },
+  {
+    "source": "陶园",
+    "url": "https://zh.wikisource.org/zh-hans/歸園田居五首",
+    "status": 200,
+    "quote_found": true,
+    "title": "归园田居 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "bf4ccfd5aeabee139ff2a671f0d2039ccca52c3b81ab64d5d6ff3904820214fb"
+  },
+  {
+    "source": "陶饮",
+    "url": "https://zh.wikisource.org/zh-hans/飲酒二十首",
+    "status": 200,
+    "quote_found": true,
+    "title": "饮酒二十首 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "e28d19cbbd841f45047f74047ec90c35d0db50197e8506a60ec4aea65ad5c3b9"
+  },
+  {
+    "source": "雍也",
+    "url": "https://zh.wikisource.org/zh-hans/論語/雍也第六",
+    "status": 200,
+    "quote_found": true,
+    "title": "论语/雍也第六 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "4ddc195876bae212147d0f6ae7f5bfba2b4e88dda6461cc28bf7c1f4ebc5819b"
+  },
+  {
+    "source": "青溪",
+    "url": "https://zh.wikisource.org/zh-hans/全唐詩/卷125",
+    "status": 200,
+    "quote_found": true,
+    "title": "全唐诗/卷125 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "bd1fc1fff0112332812be664b503842f1ddad4e2c8492630cbaeb2ed69f7fa7b"
+  },
+  {
+    "source": "鹿鸣",
+    "url": "https://zh.wikisource.org/zh-hans/詩經/鹿鳴",
+    "status": 200,
+    "quote_found": true,
+    "title": "诗经/鹿鸣 - 维基文库，自由的图书馆",
+    "verified_on": "2026-10-22",
+    "text_sha256": "c464682a2b96c85558dd6cd8fd4b0582f4480ec2b12d8f7b536dc1d71742bfff"
+  }
+]

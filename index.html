@@ -290,12 +290,12 @@
     <span class="chip">小名 · <b>小柚子</b></span>
   </div>
   <div class="chips hot">
-    <a class="chip chip-link" data-doc="五行补水女名专篇.md">🏆 定案旗舰 · <b>杨汀兰</b></a>
-    <a class="chip chip-link" data-doc="孔孟儒家篇.md">🎶 女名魁首 · <b>杨清越</b></a>
-    <a class="chip chip-link" data-doc="杨X叶与双姓谐音专篇.md">🌿 双姓头牌 · <b>杨清叶</b></a>
+    <a class="chip chip-link" data-doc="史传经世篇.md">📖 史传领衔 · <b>杨润禾</b></a>
+    <a class="chip chip-link" data-doc="史传经世篇.md">⛰️ 山下出泉 · <b>杨育泉</b></a>
+    <a class="chip chip-link" data-doc="唐宋诗词篇.md">🌿 水畔生兰 · <b>杨汀兰</b></a>
+    <a class="chip chip-link" data-doc="唐宋诗词篇.md">🎶 泉声入名 · <b>杨溪音</b></a>
   </div>
   <button class="iconbtn" id="theme" title="切换明暗">◐</button>
-</div>
   <svg class="wave" viewBox="0 0 1440 46" preserveAspectRatio="none"><path d="M0 30 C 240 46 480 10 720 24 C 960 38 1200 16 1440 30 L1440 46 L0 46 Z" fill="var(--bg)"/></svg>
 </section>
 
@@ -319,21 +319,26 @@
 <script>
 (function () {
   var GROUPS = [
-    ['总览', [['README.md', '总览 · 名册指南']]],
     ['取名正文', [
-      ['诗经楚辞篇.md', '诗经楚辞'],
-      ['孔孟儒家篇.md', '孔孟儒家'],
-      ['老庄魏晋篇.md', '老庄魏晋'],
-      ['史传经世篇.md', '史传经世'],
-      ['唐宋诗词篇.md', '唐宋诗词'],
+      ['史传经世篇.md', '史传经世 · 60名'],
+      ['唐宋诗词篇.md', '唐宋诗词 · 100名'],
+      ['诗经楚辞篇.md', '诗经楚辞 · 48名'],
+      ['孔孟儒家篇.md', '孔孟儒家 · 36名'],
+      ['老庄魏晋篇.md', '老庄魏晋 · 40名'],
     ]],
     ['专题篇', [
-      ['五行补水女名专篇.md', '五行补水旗舰篇'],
-      ['纯粹好听篇.md', '音律好听'],
-      ['单字精选-字库篇.md', '单字精选库'],
-      ['杨X叶与双姓谐音专篇.md', '杨X叶双姓'],
+      ['五行补水女名专篇.md', '旗舰 · 十璧 · Top40'],
+      ['纯粹好听篇.md', '音律好听 · 88名'],
+      ['杨X叶与双姓谐音专篇.md', '杨X叶双姓 · 44名'],
+      ['单字精选-字库篇.md', '单字精选 · 72字'],
     ]],
-    ];
+    ['总览与复核', [
+      ['README.md', '总览 · 名册指南'],
+      ['总控矩阵.md', '总控矩阵 · 416名'],
+      ['参考方法与评价框架.md', '五关 · 方法与依据'],
+      ['草稿淘汰记录.md', '优先两篇 · 草稿淘汰'],
+    ]],
+  ];
   var DOCS = []; GROUPS.forEach(function (g) { g[1].forEach(function (d) { DOCS.push(d); }); });
   var DOC_INDEX = {}; DOCS.forEach(function (d, i) { DOC_INDEX[d[0]] = i; });
 
@@ -473,6 +478,7 @@
     else {
       contentEl.innerHTML = '<div class="loading">载 入 中 …</div>';
       fetch(encodeURIComponent(file)).then(function (r) {
+        if (!r.ok) throw new Error('文档载入失败：' + r.status);
         meta[file] = new Date(r.headers.get('Last-Modified') || Date.now());
         return r.text();
       }).then(function (t) {
@@ -514,7 +520,7 @@
   }
   var h0 = parseHash();
   var i0 = DOC_INDEX[h0.file];
-  show(i0 !== undefined ? i0 : 0, i0 !== undefined, h0.h);
+  show(i0 !== undefined ? i0 : DOC_INDEX['史传经世篇.md'], i0 !== undefined, h0.h);
   window.addEventListener('hashchange', function () {
     var h = parseHash();
     var k = DOC_INDEX[h.file];
