@@ -75,7 +75,7 @@ save('草稿淘汰记录.md','\n\n'.join(b))
 # 导航数量来自实际数据。
 import re
 html=(P/'index.html').read_text()
-labels={'史传经世篇.md':f'史传经世 · {counts["史传经世"]}名','唐宋诗词篇.md':f'唐宋诗词 · {counts["唐宋诗词"]}名','诗经楚辞篇.md':f'诗经楚辞 · {counts["诗经楚辞"]}名','孔孟儒家篇.md':f'孔孟儒家 · {counts["孔孟儒家"]}名','老庄魏晋篇.md':f'老庄魏晋 · {counts["老庄魏晋"]}名','纯粹好听篇.md':f'好听易写 · 精选{len(short)}名','杨X叶与双姓谐音专篇.md':f'杨X叶双姓 · {counts["双姓"]}名','单字精选-字库篇.md':f'单字精选 · {len(lib)}字','总控矩阵.md':f'总控矩阵 · {len(unique)}名'}
+labels={'史传经世篇.md':f'史传经世 · {counts["史传经世"]}名','唐宋诗词篇.md':f'唐宋诗词 · {counts["唐宋诗词"]}名','诗经楚辞篇.md':f'诗经楚辞 · {counts["诗经楚辞"]}名','孔孟儒家篇.md':f'孔孟儒家 · {counts["孔孟儒家"]}名','老庄魏晋篇.md':f'老庄魏晋 · {counts["老庄魏晋"]}名','纯粹好听篇.md':f'好听易写 · 精选{len(short)}名','杨X叶与双姓谐音专篇.md':f'杨X叶双姓 · {counts["双姓"]}名','单字精选-字库篇.md':f'单字精选 · {len(lib)}字'}
 for filename,label in labels.items():
  pattern=r"(\['"+re.escape(filename)+r"', ')[^']*('\])"
  html,n=re.subn(pattern,lambda m:m.group(1)+label+m.group(2),html)
