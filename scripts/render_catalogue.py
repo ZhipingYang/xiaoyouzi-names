@@ -30,6 +30,10 @@ def source_notes(rows):
   s=S[k];a.append(f'- [{s["title"]}]({s["url"]})：{s["context"]}'+(' '+s['variant'] if s.get('variant') else ''))
  return '\n\n'.join(a)
 for ch,n in TARGETS.items():
+ if ch=='纯粹好听':
+  from render_shortlist import render
+  render()
+  continue
  a=[x for x in R if x['chapter']==ch];premium=sum(x['rating']=='极品' for x in a)
  # 精选作阅读入口，完整名单只出现一次，避免把榜单引用算成增量。
  heads={'史传经世':['杨润禾','杨育泉','杨知津','杨淑则','杨泉婉','杨书泉'],'唐宋诗词':['杨汀兰','杨溪音','杨月汀','杨兰溪','杨雨知','杨芷汀']}.get(ch,[x['name'] for x in a if x['rating']=='极品'][:6])
