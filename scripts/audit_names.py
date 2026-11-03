@@ -24,6 +24,14 @@ def audit():
   subset=shortlist if ch=='纯粹好听' else [x for x in rows if x['chapter']==ch]
   check(any('洛' in x['name'] for x in subset) and any('沛' in x['name'] for x in subset),ch+'：缺少洛或沛')
  available=set(names)|set(shortlist_names)
+ for n in read('name-notes.json'):check(n in available,n+'：提示引用未收录姓名')
+ review=read('name-review-current.json')['items'];check({x['name'] for x in review}==available and len(review)==len(available),'现行逐名复核记录与候选不一致')
+ for item in review:
+  n=item['name'];row=next((x for x in rows if x['name']==n),None);check(item['note']==read('name-notes.json').get(n,''),n+'：复核提示不一致');check(item['source_relation']==(row['citation_kind'] if row else '自由新拟') and item['source']==(row.get('source') if row else None),n+'：复核出处不一致')
+ source_review=read('current-source-review.json');source_map={x['source']:x for x in source_review}
+ used_sources={x['source'] for x in rows if x.get('source')};check(set(source_map)==used_sources,'现行出处快照与候选来源不一致')
+ for key in used_sources:
+  check(key in source_map and source_map[key]['url']==sources[key]['url'] and source_map[key]['status']==200 and source_map[key]['quote_found'],key+'：当前来源快照异常')
  for n in [ranks['flagship']]+ranks['alternatives']+ranks['top40']:check(n in available,n+'榜单引用未收录姓名')
  library=read('library.json')
  for item in library:

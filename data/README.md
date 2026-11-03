@@ -4,6 +4,9 @@
 - `listening-top20.json`：最新好听篇21名。文件名沿用历史名称；可与正文有交集，合并去重65名。
 - `review-history.json`、`review-poetry.json`、`review-other.json`：对上轮416条逐一给出取舍理由。`草稿淘汰记录.md`提供历史审校摘要。
 - `rankings.json`、`library.json`：只引用上述现行候选；榜单为编辑推荐，非定案。
+- `name-notes.json`：本轮复核所得的简短读音、地名与原典语境提示，由各篇和精选表共同引用。
+- `name-review-current.json`：现行65名的逐名编辑复核；风格属主观判断。
+- `current-source-review.json`：本轮19个现行来源的网页及引文核验快照；引文匹配不自动证明名字和原典的关系。
 - `sources.json`：原典与上下文数据；自由新拟名不标出处；可核实的原典注明取法。
 - `characters.json`与`standard-characters.txt`：简体笔画及规范字表底稿。字表来自[jaywcjlove/table-of-general-standard-chinese-characters](https://github.com/jaywcjlove/table-of-general-standard-chinese-characters)，笔画来自[pwxcoo/chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua)；对应MIT许可在本目录。
 - `previous-names.json`、`draft-review.json`、`rejections.json`、`source-verification.json`：历史版本的旧库、草稿和2026年10月原典引文快照。它们不是现行推荐，也不因本次审校而自动更新成新的核验报告。

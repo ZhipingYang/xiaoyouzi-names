@@ -6,26 +6,17 @@ from render_shortlist import render as render_shortlist
 P=pathlib.Path(__file__).resolve().parents[1]
 def load(name):return json.loads((P/'data'/name).read_text())
 def save(name,text):(P/name).write_text(text.strip()+'\n')
-rows=load('names.json');sources=load('sources.json');chars=load('characters.json');short=load('listening-top20.json');rank=load('rankings.json');byname={r['name']:r for r in rows};unique=set(byname)|{x['name'] for x in short}
+rows=load('names.json');sources=load('sources.json');chars=load('characters.json');short=load('listening-top20.json');rank=load('rankings.json');notes=load('name-notes.json');byname={r['name']:r for r in rows};unique=set(byname)|{x['name'] for x in short}
 files={'史传经世':'史传经世篇.md','唐宋诗词':'唐宋诗词篇.md','诗经楚辞':'诗经楚辞篇.md','孔孟儒家':'孔孟儒家篇.md','老庄魏晋':'老庄魏晋篇.md','双姓':'杨X叶与双姓谐音专篇.md'}
 def account(r):return '＋'.join(f'{c}{n}' for c,n in zip(r['name'],r['strokes']))+f'＝{r["total"]}画'
 def source_text(r):
- if r['citation_kind']=='自由新拟':return ''
+ if r['citation_kind']=='自由新拟':return ' · 新拟'
  source=sources[r['source']]
  return f' · [{source["title"]}]({source["url"]})（{r["citation_note"]}）'
 def table(items):
  result=['| 姓名 | 拼音 | 简体笔画 | 简意 / 出处 |','| :--- | :--- | :--- | :--- |']
  for r in items:
-  note=''
-  if r['name']=='杨伊露':note='；34画特例，《蒹葭》含追寻未得之情'
-  elif r['name']=='杨兰溪':note='；也是地名'
-  elif r['name']=='杨洛宁':note='；也是地名'
-  elif r['name']=='杨洛书':note='；洛书也是传统文化名词'
-  elif r['name']=='杨洛玥':note='；同音“落月”'
-  elif r['name']=='杨沛悦':note='；同音“配乐”'
-  elif r['name']=='杨溪玥':note='；同音“西岳”，玥近音叶'
-  elif r['name']=='杨洵美':note='；洵读xún'
-  elif '汀' in r['name']:note='；汀读tīng'
+  note=('；'+notes[r['name']]) if r['name'] in notes else ''
   account='＋'.join(str(n) for n in r['strokes'])+'＝'+str(r['total'])
   result.append(f'| 【{r["name"]}】 | {r["pinyin"]} | {account} | {r["meaning"]}{source_text(r)}{note} |')
  return '\n'.join(result)
@@ -41,7 +32,7 @@ for ch,file in files.items():
  }.get(ch,[])
  position={name:i for i,name in enumerate(front)}
  mixed=sorted(group,key=lambda r:position.get(r['name'],len(position)))
- intro='按气质分组；无出处标注的名字为新拟。笔画依次为杨、名字首字、末字。'
+ intro='篇目按气质分组；“新拟”并非典出本篇。笔画依次为杨、名字首字、末字。'
  if ch=='双姓':intro+=' 悦、玥与叶为近音。'
  save(file,'\n\n'.join([f'# {ch}篇（{len(group)}名）',intro,'## 名字',table(mixed)]))
 render_shortlist()
@@ -51,7 +42,7 @@ S={x['name']:x for x in short}
 for n in rank['top40']:
  if n in S:x=S[n];desc=x['meaning'];ct='＋'.join(f'{c}{chars[c]["strokes"]}' for c in n)+'＝'+str(sum(chars[c]['strokes'] for c in n))+'画'
  else:x=byname[n];desc=x['meaning'];ct=account(x)
- lines.append(f'| 【{n}】 | {ct} | {desc} |')
+ lines.append(f'| 【{n}】 | {ct} | {desc.rstrip("。")}'+('；'+notes[n] if n in notes else '')+' |')
 lines+=['## 使用提醒','伊露34画为此前指定的例外；方言请家人实读。']
 save('五行补水女名专篇.md','\n\n'.join(lines[:3])+'\n\n'+'\n'.join(lines[3:-2])+'\n\n'+'\n\n'.join(lines[-2:]))
 # 字库只引用现行候选，不再为数量制造例名。
@@ -93,6 +84,6 @@ save('index.html',html)
 readme=['# 小柚子的取名册','杨姓女宝，小名小柚子。先看现代、自然、日常好叫的名字；洛、沛已融入各篇。','[打开在线取名册](https://zhipingyang.github.io/xiaoyouzi-names/)','## 各篇','| 篇目 | 候选 |','| :--- | :---: |']
 for ch,file in files.items():readme.append(f'| [{ch}](./{file}) | {counts[ch]} |')
 readme.append(f'| [纯粹好听](./纯粹好听篇.md) | {len(short)} |')
-readme+=['',f'合并去重 **{len(unique)} 名**。篇目按气质分组；没有标注出处的名字是自由新拟。','[综合精选](./五行补水女名专篇.md) · [字库](./单字精选-字库篇.md) · [总控矩阵](./总控矩阵.md)','', '笔画按现代简体计算；伊露34画按此前约定保留。莆仙、闽南方言请家人实读。','', '更新：`python3 scripts/render_catalogue.py`；检查：`python3 scripts/audit_names.py`。']
+readme+=['',f'合并去重 **{len(unique)} 名**。篇目按气质分组；没有标注出处的名字是自由新拟。现行名字已逐条复核，必要的同音与语境提示附在名字旁。','[综合精选](./五行补水女名专篇.md) · [字库](./单字精选-字库篇.md) · [总控矩阵](./总控矩阵.md)','', '笔画按现代简体计算；伊露34画按此前约定保留。莆仙、闽南方言请家人实读。','', '更新：`python3 scripts/render_catalogue.py`；检查：`python3 scripts/audit_names.py`。']
 save('README.md',blocks([part for part in readme if part]))
 if __name__=='__main__':raise SystemExit(audit())
