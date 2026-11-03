@@ -478,7 +478,7 @@
     if (cache[file]) { render(cache[file], file); done(); }
     else {
       contentEl.innerHTML = '<div class="loading">载 入 中 …</div>';
-      fetch(encodeURIComponent(file)).then(function (r) {
+      fetch(encodeURIComponent(file), { cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error('文档载入失败：' + r.status);
         meta[file] = new Date(r.headers.get('Last-Modified') || Date.now());
         return r.text();
