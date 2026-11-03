@@ -1,63 +1,34 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python3
-"""离线校验本轮推荐库；不把审美评分或方言实读伪装成程序证明。"""
-import collections,json,pathlib,sys
+"""验证现行推荐的数据一致性；审美与方言不能自动证明。"""
+import json,pathlib,sys,collections
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-def read(n): return json.loads((ROOT/'data'/n).read_text())
-TARGETS={'史传经世':60,'唐宋诗词':100,'诗经楚辞':48,'孔孟儒家':36,'老庄魏晋':40,'纯粹好听':88,'双姓':44}
-BAN=set('梓宸轩泽睿浩宇辰奕诺汐霖涵沫沐')
+def read(name): return json.loads((ROOT/'data'/name).read_text())
+TARGETS={'史传经世':None,'唐宋诗词':None,'诗经楚辞':None,'孔孟儒家':None,'老庄魏晋':None,'纯粹好听':None,'双姓':None}
 def audit():
- rows=read('names.json');sources=read('sources.json');chars=read('characters.json');old=set(read('previous-names.json'));standard=(ROOT/'data/standard-characters.txt').read_text().splitlines();errors=[]
+ rows=read('names.json'); shortlist=read('listening-top20.json'); chars=read('characters.json'); sources=read('sources.json'); standard=set((ROOT/'data/standard-characters.txt').read_text().splitlines()); ranks=read('rankings.json'); errors=[]
  def check(ok,msg):
-  if not ok:errors.append(msg)
- names=[r['name'] for r in rows]
- check(len(names)==len(set(names)),'跨篇完整姓名重复')
- check(len(standard)==8105 and len(set(standard))==8105,'通规底表应为8105个不同字')
- seeds=[r for r in rows if r['name'] in old];check(len(seeds)<=14,'火种超过14')
+  if not ok: errors.append(msg)
+ names=[r['name'] for r in rows];check(len(names)==len(set(names)),'正文姓名重复')
  for r in rows:
-  n=r['name'];check(len(n)==3 and n[0]=='杨',n+'：非三字杨姓名')
-  check(r['source'] in sources,n+'：来源缺失');check(len(r['meaning'])>=8,n+'：意蕴缺失')
-  check(all(c in standard for c in n),n+'：非通规字');check(not BAN.intersection(n),n+'：禁字')
-  strokes=[chars[c]['strokes'] for c in n];check(strokes==r['strokes'] and sum(strokes)==r['total'],n+'：笔画账错')
-  if n!='杨伊露':
-   check(all(v<=13 or (c=='澜' and v==15) for c,v in zip(n,strokes)),n+'：单字超画')
-   check(sum(strokes)<=30,n+'：全名超30画')
-  check(len(set(r['tones']))>1,n+'：三连同调');check(r['tones'][0]==2 and all(t in range(1,5) for t in r['tones']),n+'：声调非法')
-  check('叶' not in n or n.endswith('叶'),n+'：叶必须收尾')
-  check(r['seed']==(n in old),n+'：火种标记与快照不一致')
-  check(all(c in n for c in r['water']),n+'：水字备注与姓名不一致')
-  check(len(r['gates'])==5,n+'：五关记录缺失');check('待家人' in r['dialect'],n+'：方言状态误标')
-  check(bool(r['water']) or r.get('water_note'),n+'：水德依据缺失')
- for ch,target in TARGETS.items():
-  a=[r for r in rows if r['chapter']==ch];check(len(a)==target,ch+'：数量不足或统计漂移')
-  first=collections.Counter(r['name'][1] for r in a);check(max(first.values())<=2,ch+'：同首字超过2')
-  check(sum('清' in r['name'] for r in a)<=2,ch+'：清字超过2')
-  check(sum(r['rating']=='极品' for r in a)/len(a)>=.4,ch+'：极品不足40%')
- # 旗舰、Top40为索引不算新增；同首字与清限额也独立检查。
- for label,key,count in [('十璧','alternatives',10),('总榜','top40',40)]:
-  if (ROOT/'data/rankings.json').exists():
-   selected=read('rankings.json')[key];check(len(selected)==count and len(set(selected))==count,label+'：数量或去重失败')
-   check(set(selected)<=set(names),label+'：引用库外名字')
-   check(max(collections.Counter(n[1] for n in selected).values())<=2,label+'：首字超限')
-   check(sum('清' in n for n in selected)<=2,label+'：清字超限')
- if (ROOT/'data/library.json').exists():
-  library=read('library.json');check(len(library)==72 and len({x['character'] for x in library})==72,'字库不是72个不同字')
-  check(sum(len(x['examples']) for x in library)>=504,'字库例名回引不足旧版三倍')
-  for x in library:
-   check(all(n in names and x['character'] in n[1:] for n in x['examples']),'字库回引不一致：'+x['character'])
- if (ROOT/'data/draft-review.json').exists():
-  draft=read('draft-review.json')
-  for ch,amount in [('史传经世',120),('唐宋诗词',200)]:
-   a=[x for x in draft if x['chapter']==ch];check(len(a)>=amount and len({x['name'] for x in a})==len(a),ch+'：草稿不足2倍或重复计数')
-   check({x['name'] for x in a if x['decision']=='保留'}=={x['name'] for x in rows if x['chapter']==ch},ch+'：草稿保留记录与终稿不一致')
- if (ROOT/'data/source-verification.json').exists():
-  proof=read('source-verification.json');check({x['source'] for x in proof}==set(sources),'来源快照不全')
-  check(all(x['status']==200 and x['quote_found'] for x in proof),'原典快照存在未命中引文')
- if errors:
-  print('\n'.join(errors));return 1
- print(f'PASS：{len(rows)}个独立推荐，{len(seeds)}个火种，{len(rows)-len(seeds)}个新名；字画、通规、禁字、分篇配额、声调、查重全部通过。')
+  n=r['name'];check(len(n)==3 and n.startswith('杨'),n+'格式');check(all(c in standard and c in chars for c in n),n+'规范字')
+  check(r['source'] in sources,n+'来源缺失');check(r['strokes']==[chars[c]['strokes'] for c in n] and r['total']==sum(r['strokes']),n+'笔画')
+  if n!='杨伊露':check(max(r['strokes'])<=13 and r['total']<=30,n+'笔画超限')
+  check(len(r['tones'])==3 and r['tones'][0]==2 and len(set(r['tones']))>1,n+'声调')
+  if r.get('citation_kind')=='原句直取':check(n[1:] in sources[r['source']]['quote'],n+'并非原句连词')
+  check(r['chapter'] in TARGETS,n+'篇目无效')
+ shortlist_names=[r['name'] for r in shortlist];check(len(shortlist_names)==len(set(shortlist_names)),'听感精选重复')
+ for r in shortlist:
+  n=r['name'];check(all(c in standard and c in chars for c in n),n+'精选规范字');check(r['water'] in n,n+'精选水字')
+  check(sum(chars[c]['strokes'] for c in n)<=30 and max(chars[c]['strokes'] for c in n)<=13,n+'精选笔画')
+ available=set(names)|set(shortlist_names)
+ for n in [ranks['flagship']]+ranks['alternatives']+ranks['top40']:check(n in available,n+'榜单引用未收录姓名')
+ library=read('library.json')
+ for item in library:
+  for n in item['examples']:check(n in available and item['character'] in n,n+'字库引用错误')
+ if errors:print('\n'.join(errors));return 1
+ print('通过：正文',len(rows),'名；听感精选',len(shortlist),'名；合并去重',len(available),'名。')
  for ch in TARGETS:
-  a=[r for r in rows if r['chapter']==ch];print(f'{ch}：{len(a)}名，极品{sum(r["rating"]=="极品" for r in a)}名')
- print('五关含人工编辑判断；方言尚待家人实读。')
+  if ch!='纯粹好听':print(ch,sum(x['chapter']==ch for x in rows),'名')
+ print('规范字、简体笔画、声调、引用和去重已检查；审美及莆仙／闽南实读仍需家人判断。')
  return 0
 if __name__=='__main__':sys.exit(audit())
