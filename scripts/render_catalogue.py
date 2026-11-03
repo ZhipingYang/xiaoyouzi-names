@@ -31,18 +31,22 @@ def table(items):
  return '\n'.join(result)
 for ch,file in files.items():
  group=[r for r in rows if r['chapter']==ch]
- old=[r for r in group if not r.get('preference')];new=[r for r in group if r.get('preference')]
- # 穿插展示原有名与新偏好，不制造额外排名。
- mixed=[]
- for i in range(max(len(old),len(new))):
-  if i<len(old):mixed.append(old[i])
-  if i<len(new):mixed.append(new[i])
+ front={
+  '史传经世':['杨洛安','杨沛安','杨润禾','杨沛文'],
+  '唐宋诗词':['杨洛兰','杨沛欣','杨沛晴','杨洛星','杨溪音'],
+  '诗经楚辞':['杨洛妍','杨沛柔','杨沛茹','杨清婉'],
+  '孔孟儒家':['杨洛心','杨沛思','杨洛思','杨时雨'],
+  '老庄魏晋':['杨洛宁','杨沛宁','杨洛雯','杨沛宜'],
+  '双姓':['杨清叶','杨沛悦','杨沁悦','杨洛玥'],
+ }.get(ch,[])
+ position={name:i for i,name in enumerate(front)}
+ mixed=sorted(group,key=lambda r:position.get(r['name'],len(position)))
  intro='按气质分组；无出处标注的名字为新拟。笔画依次为杨、名字首字、末字。'
  if ch=='双姓':intro+=' 悦、玥与叶为近音。'
  save(file,'\n\n'.join([f'# {ch}篇（{len(group)}名）',intro,'## 名字',table(mixed)]))
 render_shortlist()
 # 精选榜保留现有推荐，重叠姓名不重复计入。
-lines=['# 补水女名精选','按听感与字义挑选；洛、沛已加入。' ,'## 先比较的名字','| 姓名 | 简体笔画 | 值得看看 |\n| :--- | :--- | :--- |']
+lines=['# 补水女名精选','先看现代、自然的名字，洛、沛也在其中。' ,'## 先比较的名字','| 姓名 | 简体笔画 | 值得看看 |\n| :--- | :--- | :--- |']
 S={x['name']:x for x in short}
 for n in rank['top40']:
  if n in S:x=S[n];desc=x['meaning'];ct='＋'.join(f'{c}{chars[c]["strokes"]}' for c in n)+'＝'+str(sum(chars[c]['strokes'] for c in n))+'画'
@@ -86,7 +90,7 @@ for filename,label in labels.items():
  html,n=re.subn(pattern,lambda m:m.group(1)+label+m.group(2),html)
  assert n==1,(filename,n)
 save('index.html',html)
-readme=['# 小柚子的取名册','杨姓女宝，小名小柚子。偏好现代、自然、带水意的名字；洛、沛已融入各篇。','[打开在线取名册](https://zhipingyang.github.io/xiaoyouzi-names/)','## 各篇','| 篇目 | 候选 |','| :--- | :---: |']
+readme=['# 小柚子的取名册','杨姓女宝，小名小柚子。先看现代、自然、日常好叫的名字；洛、沛已融入各篇。','[打开在线取名册](https://zhipingyang.github.io/xiaoyouzi-names/)','## 各篇','| 篇目 | 候选 |','| :--- | :---: |']
 for ch,file in files.items():readme.append(f'| [{ch}](./{file}) | {counts[ch]} |')
 readme.append(f'| [纯粹好听](./纯粹好听篇.md) | {len(short)} |')
 readme+=['',f'合并去重 **{len(unique)} 名**。篇目按气质分组；没有标注出处的名字是自由新拟。','[综合精选](./五行补水女名专篇.md) · [字库](./单字精选-字库篇.md) · [总控矩阵](./总控矩阵.md)','', '笔画按现代简体计算；伊露34画按此前约定保留。莆仙、闽南方言请家人实读。','', '更新：`python3 scripts/render_catalogue.py`；检查：`python3 scripts/audit_names.py`。']
