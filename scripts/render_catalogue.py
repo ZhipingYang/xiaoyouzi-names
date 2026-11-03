@@ -10,39 +10,46 @@ rows=load('names.json');sources=load('sources.json');chars=load('characters.json
 files={'史传经世':'史传经世篇.md','唐宋诗词':'唐宋诗词篇.md','诗经楚辞':'诗经楚辞篇.md','孔孟儒家':'孔孟儒家篇.md','老庄魏晋':'老庄魏晋篇.md','双姓':'杨X叶与双姓谐音专篇.md'}
 def account(r):return '＋'.join(f'{c}{n}' for c,n in zip(r['name'],r['strokes']))+f'＝{r["total"]}画'
 def source_text(r):
- if r['citation_kind']=='自由新拟':return '自由新拟，无确切典源'
- s=sources[r['source']];quote=r.get('citation_quote',s['quote'])
- return f'[{s["title"]}]({s["url"]})：“{quote}”<br>{r["citation_note"]}'
+ if r['citation_kind']=='自由新拟':return ''
+ source=sources[r['source']]
+ return f' · [{source["title"]}]({source["url"]})（{r["citation_note"]}）'
 def table(items):
- result=['| 姓名 | 拼音与声调 | 笔画账 | 意象与出处 | 使用时考虑 |','| :--- | :--- | :--- | :--- | :--- |']
+ result=['| 姓名 | 拼音 | 简体笔画 | 简意 / 出处 |','| :--- | :--- | :--- | :--- |']
  for r in items:
   note=''
-  if r['name']=='杨伊露':note='用户指定保留：34画；《蒹葭》有追寻未得的情绪。'
-  elif r['name']=='杨兰溪':note='兰溪也是地名，可看是否介意。'
-  elif r['name']=='杨春洧':note='洧读wěi，认读成本较高。'
-  elif r['name']=='杨溪玥':note='玥近音叶；溪玥与西岳同音，可由家人权衡。'
-  elif r['name']=='杨汀玥':note='玥近音叶，汀字常需说明写法。'
-  elif r['name']=='杨洵美':note='洵读xún；原文中作“诚然”解，水旁是字形，并非原句写水。'
-  elif '汀' in r['name']:note='汀读tīng，字义为水边平地，报名字时可能需说明。'
-  else:note='普通话连读后建议家人再以常用方言实读。'
-  result.append(f'| 【{r["name"]}】 | {r["pinyin"]}（'+ '-'.join(map(str,r['tones']))+f'） | {account(r)} | {r["meaning"]}。<br>{source_text(r)} | {note} |')
+  if r['name']=='杨伊露':note='；34画特例，《蒹葭》含追寻未得之情'
+  elif r['name']=='杨兰溪':note='；也是地名'
+  elif r['name']=='杨洛宁':note='；也是地名'
+  elif r['name']=='杨洛书':note='；洛书也是传统文化名词'
+  elif r['name']=='杨洛玥':note='；同音“落月”'
+  elif r['name']=='杨沛悦':note='；同音“配乐”'
+  elif r['name']=='杨溪玥':note='；同音“西岳”，玥近音叶'
+  elif r['name']=='杨洵美':note='；洵读xún'
+  elif '汀' in r['name']:note='；汀读tīng'
+  account='＋'.join(str(n) for n in r['strokes'])+'＝'+str(r['total'])
+  result.append(f'| 【{r["name"]}】 | {r["pinyin"]} | {account} | {r["meaning"]}{source_text(r)}{note} |')
  return '\n'.join(result)
 for ch,file in files.items():
  group=[r for r in rows if r['chapter']==ch]
- b=[f'# 三字姓名：{ch}篇（{len(group)}名）','本篇重新逐名审校，优先保留读起来像姓名、两个字之间有自然联系的组合。出处关联不足的条目不再附典。本轮也减少古风和生僻感较重的组合，审美有主观性，排序只供家人比较。','## 本篇候选',table(group)]
- if ch=='双姓':b.insert(1,'叶读yè，悦、玥读yuè，属于近音而非普通话同音；母姓是纪念，不强行解释每个名字。')
- b+=['## 最后再听一遍','请把“杨＋名字”连读，也试着在课堂、工作和日常介绍中使用；莆仙、闽南方言仍需家人按本地口音实读。','[查看总览](./README.md) · [查看审校记录](./草稿淘汰记录.md)']
- save(file,'\n\n'.join(b))
+ old=[r for r in group if not r.get('preference')];new=[r for r in group if r.get('preference')]
+ # 穿插展示原有名与新偏好，不制造额外排名。
+ mixed=[]
+ for i in range(max(len(old),len(new))):
+  if i<len(old):mixed.append(old[i])
+  if i<len(new):mixed.append(new[i])
+ intro='按气质分组；无出处标注的名字为新拟。笔画依次为杨、名字首字、末字。'
+ if ch=='双姓':intro+=' 悦、玥与叶为近音。'
+ save(file,'\n\n'.join([f'# {ch}篇（{len(group)}名）',intro,'## 名字',table(mixed)]))
 render_shortlist()
 # 精选榜保留现有推荐，重叠姓名不重复计入。
-lines=['# 补水女名精选','根据本轮听感和字义重排；这些候选来自各篇及好听篇，重复出现只计一个。水字是家庭的文化取向，名字本身不保证五行效果。','## 先比较的名字','| 姓名 | 简体笔画 | 值得看看 |\n| :--- | :--- | :--- |']
+lines=['# 补水女名精选','按听感与字义挑选；洛、沛已加入。' ,'## 先比较的名字','| 姓名 | 简体笔画 | 值得看看 |\n| :--- | :--- | :--- |']
 S={x['name']:x for x in short}
 for n in rank['top40']:
  if n in S:x=S[n];desc=x['meaning'];ct='＋'.join(f'{c}{chars[c]["strokes"]}' for c in n)+'＝'+str(sum(chars[c]['strokes'] for c in n))+'画'
  else:x=byname[n];desc=x['meaning'];ct=account(x)
  lines.append(f'| 【{n}】 | {ct} | {desc} |')
-lines+=['## 关于杨汀兰','“汀兰”见范仲淹《岳阳楼记》，水岸兰草的画面完整，全名17画。它依然是一个值得留在名单中的候选；最终选择交给家人，不再写成已替孩子定案。','## 终选提醒','如看重文学出处，可先读对应原典上下文；自由新拟的名字不强加典故。伊露按此前约定单独保留，其34画与原诗追寻未得的语境请一并考虑。方言仍需家人实读。']
-save('五行补水女名专篇.md','\n\n'.join(lines[:3])+'\n\n'+'\n'.join(lines[3:-4])+'\n\n'+'\n\n'.join(lines[-4:]))
+lines+=['## 使用提醒','伊露34画为此前指定的例外；方言请家人实读。']
+save('五行补水女名专篇.md','\n\n'.join(lines[:3])+'\n\n'+'\n'.join(lines[3:-2])+'\n\n'+'\n\n'.join(lines[-2:]))
 # 字库只引用现行候选，不再为数量制造例名。
 all_names=sorted(unique);lib=[]
 for c in sorted(set(''.join(n[1:] for n in all_names))):
@@ -68,13 +75,20 @@ def blocks(parts):
  for part in parts:out+= ('\n' if out.rstrip().endswith('|') and part.startswith('|') else '\n\n')+part if out else part
  return out
 save('总控矩阵.md',blocks(b))
-b=['# 逐名审校记录','对上轮416名逐名复核。现行正文只保留通过本轮筛选的文史与双姓名字；旧音律池统一交给最新好听篇重选。理由为编辑判断，不代表名字本身有绝对好坏。','## 各篇审校','| 姓名 | 本轮处理 | 具体理由 |\n| :--- | :--- | :--- |']
-# Preserve individual dispositions even for the formerly hidden sound pool.
-for n,x in review.items():
- current='保留' if n in byname else ('好听篇重选' if n in {z['name'] for z in short} else '移出推荐')
- reason=x['reason'].replace('|','／')
- if current=='移出推荐' and x['decision']=='keep': reason='名字可再比较；旧音律池不单独展示，未进入本轮好听精选。'+reason
- b.append(f'| {n} | {current} | {reason} |')
-b+=['## 旧草稿','早期120稿／200稿及替字对照保留在data/draft-review.json，属于历史过程，不是当前推荐或本轮评级。']
-save('草稿淘汰记录.md',blocks(b))
+b=['# 历史审校记录','上轮对416个候选逐名筛选，移除了生硬拼字及牵强附会。','## 保留记录','逐名意见保存在 `data/review-history.json`、`data/review-poetry.json` 与 `data/review-other.json`；本轮新拟洛、沛候选不属于该历史记录。','[查看现行名单](./README.md)']
+save('草稿淘汰记录.md','\n\n'.join(b))
+# 导航数量来自实际数据。
+import re
+html=(P/'index.html').read_text()
+labels={'史传经世篇.md':f'史传经世 · {counts["史传经世"]}名','唐宋诗词篇.md':f'唐宋诗词 · {counts["唐宋诗词"]}名','诗经楚辞篇.md':f'诗经楚辞 · {counts["诗经楚辞"]}名','孔孟儒家篇.md':f'孔孟儒家 · {counts["孔孟儒家"]}名','老庄魏晋篇.md':f'老庄魏晋 · {counts["老庄魏晋"]}名','纯粹好听篇.md':f'好听易写 · 精选{len(short)}名','杨X叶与双姓谐音专篇.md':f'杨X叶双姓 · {counts["双姓"]}名','单字精选-字库篇.md':f'单字精选 · {len(lib)}字','总控矩阵.md':f'总控矩阵 · {len(unique)}名'}
+for filename,label in labels.items():
+ pattern=r"(\['"+re.escape(filename)+r"', ')[^']*('\])"
+ html,n=re.subn(pattern,lambda m:m.group(1)+label+m.group(2),html)
+ assert n==1,(filename,n)
+save('index.html',html)
+readme=['# 小柚子的取名册','杨姓女宝，小名小柚子。偏好现代、自然、带水意的名字；洛、沛已融入各篇。','[打开在线取名册](https://zhipingyang.github.io/xiaoyouzi-names/)','## 各篇','| 篇目 | 候选 |','| :--- | :---: |']
+for ch,file in files.items():readme.append(f'| [{ch}](./{file}) | {counts[ch]} |')
+readme.append(f'| [纯粹好听](./纯粹好听篇.md) | {len(short)} |')
+readme+=['',f'合并去重 **{len(unique)} 名**。篇目按气质分组；没有标注出处的名字是自由新拟。','[综合精选](./五行补水女名专篇.md) · [字库](./单字精选-字库篇.md) · [总控矩阵](./总控矩阵.md)','', '笔画按现代简体计算；伊露34画按此前约定保留。莆仙、闽南方言请家人实读。','', '更新：`python3 scripts/render_catalogue.py`；检查：`python3 scripts/audit_names.py`。']
+save('README.md',blocks([part for part in readme if part]))
 if __name__=='__main__':raise SystemExit(audit())

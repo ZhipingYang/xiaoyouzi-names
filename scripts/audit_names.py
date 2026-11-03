@@ -11,7 +11,7 @@ def audit():
  names=[r['name'] for r in rows];check(len(names)==len(set(names)),'正文姓名重复')
  for r in rows:
   n=r['name'];check(len(n)==3 and n.startswith('杨'),n+'格式');check(all(c in standard and c in chars for c in n),n+'规范字')
-  check(r['source'] in sources,n+'来源缺失');check(r['strokes']==[chars[c]['strokes'] for c in n] and r['total']==sum(r['strokes']),n+'笔画')
+  check(r['citation_kind']=='自由新拟' or r.get('source') in sources,n+'来源缺失');check(r['strokes']==[chars[c]['strokes'] for c in n] and r['total']==sum(r['strokes']),n+'笔画')
   if n!='杨伊露':check(max(r['strokes'])<=13 and r['total']<=30,n+'笔画超限')
   check(len(r['tones'])==3 and r['tones'][0]==2 and len(set(r['tones']))>1,n+'声调')
   if r.get('citation_kind')=='原句直取':check(n[1:] in sources[r['source']]['quote'],n+'并非原句连词')
@@ -20,6 +20,9 @@ def audit():
  for r in shortlist:
   n=r['name'];check(all(c in standard and c in chars for c in n),n+'精选规范字');check(r['water'] in n,n+'精选水字')
   check(sum(chars[c]['strokes'] for c in n)<=30 and max(chars[c]['strokes'] for c in n)<=13,n+'精选笔画')
+ for ch in TARGETS:
+  subset=shortlist if ch=='纯粹好听' else [x for x in rows if x['chapter']==ch]
+  check(any('洛' in x['name'] for x in subset) and any('沛' in x['name'] for x in subset),ch+'：缺少洛或沛')
  available=set(names)|set(shortlist_names)
  for n in [ranks['flagship']]+ranks['alternatives']+ranks['top40']:check(n in available,n+'榜单引用未收录姓名')
  library=read('library.json')

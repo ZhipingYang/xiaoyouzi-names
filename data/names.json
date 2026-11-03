@@ -700,5 +700,605 @@
     "water_note": "溪：字形或字义直接承水；属文化取名意象",
     "citation_kind": "自由新拟",
     "citation_note": "字义组合，未找到足够贴切的两字典源。"
+  },
+  {
+    "chapter": "史传经世",
+    "name": "杨洛书",
+    "source": "洛书",
+    "meaning": "水名与书卷，简洁知性",
+    "pinyin": "yáng luò shū",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      9,
+      4
+    ],
+    "total": 20,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "意象化用",
+    "citation_note": "隔字取“洛出书”",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "史传经世",
+    "name": "杨洛安",
+    "source": null,
+    "meaning": "洛水与安宁，清朗平和",
+    "pinyin": "yáng luò ān",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      9,
+      6
+    ],
+    "total": 22,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "史传经世",
+    "name": "杨沛文",
+    "source": null,
+    "meaning": "精神充沛，文心清朗",
+    "pinyin": "yáng pèi wén",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      4
+    ],
+    "total": 18,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "史传经世",
+    "name": "杨沛安",
+    "source": null,
+    "meaning": "生机充盈，心境安稳",
+    "pinyin": "yáng pèi ān",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      7,
+      6
+    ],
+    "total": 20,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨洛兰",
+    "source": null,
+    "meaning": "洛水与兰，清新温柔",
+    "pinyin": "yáng luò lán",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      5
+    ],
+    "total": 21,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨洛星",
+    "source": null,
+    "meaning": "水色映星，清亮灵动",
+    "pinyin": "yáng luò xīng",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      9,
+      9
+    ],
+    "total": 25,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨洛雪",
+    "source": null,
+    "meaning": "水与雪相映，明净温柔",
+    "pinyin": "yáng luò xuě",
+    "tones": [
+      2,
+      4,
+      3
+    ],
+    "strokes": [
+      7,
+      9,
+      11
+    ],
+    "total": 27,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨沛晴",
+    "source": null,
+    "meaning": "明朗舒展，生机充沛",
+    "pinyin": "yáng pèi qíng",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      12
+    ],
+    "total": 26,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨洛芷",
+    "source": null,
+    "meaning": "水岸与芳草，清秀有生气",
+    "pinyin": "yáng luò zhǐ",
+    "tones": [
+      2,
+      4,
+      3
+    ],
+    "strokes": [
+      7,
+      9,
+      7
+    ],
+    "total": 23,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨洛妍",
+    "source": null,
+    "meaning": "洛水清润，妍取美好",
+    "pinyin": "yáng luò yán",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      7
+    ],
+    "total": 23,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨沛乔",
+    "source": null,
+    "meaning": "生机充盈，乔木挺秀",
+    "pinyin": "yáng pèi qiáo",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      6
+    ],
+    "total": 20,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨沛茹",
+    "source": null,
+    "meaning": "丰沛柔和，读音舒展",
+    "pinyin": "yáng pèi rú",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      9
+    ],
+    "total": 23,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "孔孟儒家",
+    "name": "杨洛心",
+    "source": null,
+    "meaning": "清朗而有心思",
+    "pinyin": "yáng luò xīn",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      9,
+      4
+    ],
+    "total": 20,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "孔孟儒家",
+    "name": "杨洛思",
+    "source": null,
+    "meaning": "心思清明，温柔有主见",
+    "pinyin": "yáng luò sī",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      9,
+      9
+    ],
+    "total": 25,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "孔孟儒家",
+    "name": "杨沛然",
+    "source": "沛然",
+    "meaning": "如及时雨，充满生机",
+    "pinyin": "yáng pèi rán",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      12
+    ],
+    "total": 26,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "原句直取",
+    "citation_note": "“沛然下雨”",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "孔孟儒家",
+    "name": "杨沛思",
+    "source": null,
+    "meaning": "思路丰盈，乐于探索",
+    "pinyin": "yáng pèi sī",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      7,
+      9
+    ],
+    "total": 23,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "老庄魏晋",
+    "name": "杨洛宁",
+    "source": null,
+    "meaning": "水意灵动，心境安宁",
+    "pinyin": "yáng luò níng",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      5
+    ],
+    "total": 21,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "老庄魏晋",
+    "name": "杨洛雯",
+    "source": null,
+    "meaning": "洛水与云纹，温柔明净",
+    "pinyin": "yáng luò wén",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      12
+    ],
+    "total": 28,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "老庄魏晋",
+    "name": "杨沛宁",
+    "source": null,
+    "meaning": "生机充沛，也有安定",
+    "pinyin": "yáng pèi níng",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      5
+    ],
+    "total": 19,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "老庄魏晋",
+    "name": "杨沛宜",
+    "source": null,
+    "meaning": "丰盈舒展，从容合宜",
+    "pinyin": "yáng pèi yí",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      8
+    ],
+    "total": 22,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "双姓",
+    "name": "杨洛玥",
+    "source": null,
+    "meaning": "洛水与玉，玥近音纪念叶姓",
+    "pinyin": "yáng luò yuè",
+    "tones": [
+      2,
+      4,
+      4
+    ],
+    "strokes": [
+      7,
+      9,
+      8
+    ],
+    "total": 24,
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "双姓",
+    "name": "杨沛悦",
+    "source": null,
+    "meaning": "生机与喜悦，悦近音纪念叶姓",
+    "pinyin": "yáng pèi yuè",
+    "tones": [
+      2,
+      4,
+      4
+    ],
+    "strokes": [
+      7,
+      7,
+      10
+    ],
+    "total": 24,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨沛欣",
+    "source": null,
+    "meaning": "欣然向上，明快有生机",
+    "pinyin": "yáng pèi xīn",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      7,
+      8
+    ],
+    "total": 22,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨沛柔",
+    "source": null,
+    "meaning": "生机丰盈，温柔有力",
+    "pinyin": "yáng pèi róu",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      7,
+      9
+    ],
+    "total": 23,
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
   }
 ]
