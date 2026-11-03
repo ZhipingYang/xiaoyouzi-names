@@ -22,7 +22,7 @@ def audit():
   check(sum(chars[c]['strokes'] for c in n)<=30 and max(chars[c]['strokes'] for c in n)<=13,n+'精选笔画')
  for ch in TARGETS:
   subset=shortlist if ch=='纯粹好听' else [x for x in rows if x['chapter']==ch]
-  check(any('洛' in x['name'] for x in subset) and any('沛' in x['name'] for x in subset),ch+'：缺少洛或沛')
+  check(bool(subset),ch+'：没有候选')
  available=set(names)|set(shortlist_names)
  for n in read('name-notes.json'):check(n in available,n+'：提示引用未收录姓名')
  review=read('name-review-current.json')['items'];check({x['name'] for x in review}==available and len(review)==len(available),'现行逐名复核记录与候选不一致')

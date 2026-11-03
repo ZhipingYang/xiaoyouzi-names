@@ -39,6 +39,13 @@
       "note": "也是地名"
     },
     {
+      "name": "杨冰悦",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": "悦与叶近音"
+    },
+    {
       "name": "杨岩溪",
       "style": "偏诗意或书卷",
       "source_relation": "意象化用",
@@ -71,6 +78,13 @@
       "style": "偏诗意或书卷",
       "source_relation": "意象化用",
       "source": "晓净",
+      "note": ""
+    },
+    {
+      "name": "杨映溪",
+      "style": "偏诗意或书卷",
+      "source_relation": "意象化用",
+      "source": "青溪",
       "note": ""
     },
     {
@@ -109,6 +123,13 @@
       "note": ""
     },
     {
+      "name": "杨沁怡",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
       "name": "杨沁悦",
       "style": "偏现代组合",
       "source_relation": "自由新拟",
@@ -128,6 +149,13 @@
       "source_relation": "自由新拟",
       "source": null,
       "note": ""
+    },
+    {
+      "name": "杨沂安",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": "沂读 yí"
     },
     {
       "name": "杨沛乔",
@@ -156,13 +184,6 @@
       "source_relation": "自由新拟",
       "source": null,
       "note": ""
-    },
-    {
-      "name": "杨沛思",
-      "style": "偏现代组合",
-      "source_relation": "自由新拟",
-      "source": null,
-      "note": "字义较抽象"
     },
     {
       "name": "杨沛悦",
@@ -207,10 +228,10 @@
       "note": ""
     },
     {
-      "name": "杨沛茹",
-      "style": "偏现代组合",
-      "source_relation": "自由新拟",
-      "source": null,
+      "name": "杨泉月",
+      "style": "偏诗意或书卷",
+      "source_relation": "意象化用",
+      "source": "秋暝",
       "note": ""
     },
     {
@@ -219,6 +240,13 @@
       "source_relation": "自由新拟",
       "source": null,
       "note": ""
+    },
+    {
+      "name": "杨泓安",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": "泓读 hóng"
     },
     {
       "name": "杨洛书",
@@ -261,20 +289,6 @@
       "source_relation": "自由新拟",
       "source": null,
       "note": ""
-    },
-    {
-      "name": "杨洛心",
-      "style": "偏现代组合",
-      "source_relation": "自由新拟",
-      "source": null,
-      "note": "字义较抽象"
-    },
-    {
-      "name": "杨洛思",
-      "style": "偏现代组合",
-      "source_relation": "自由新拟",
-      "source": null,
-      "note": "近音“螺丝”，首字声调不同"
     },
     {
       "name": "杨洛星",
@@ -347,6 +361,13 @@
       "note": ""
     },
     {
+      "name": "杨淇悦",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": "淇读 qí；悦与叶近音"
+    },
+    {
       "name": "杨清叶",
       "style": "偏现代组合",
       "source_relation": "自由新拟",
@@ -387,6 +408,13 @@
       "source_relation": "自由新拟",
       "source": null,
       "note": ""
+    },
+    {
+      "name": "杨清竹",
+      "style": "偏诗意或书卷",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": "与“青竹”同音"
     },
     {
       "name": "杨清越",
@@ -449,6 +477,48 @@
       "style": "偏诗意或书卷",
       "source_relation": "意象化用",
       "source": "春夜",
+      "note": ""
+    },
+    {
+      "name": "杨雨乔",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
+      "name": "杨雨宁",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
+      "name": "杨雨棠",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
+      "name": "杨雨竹",
+      "style": "偏诗意或书卷",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
+      "name": "杨雨舒",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
+      "note": ""
+    },
+    {
+      "name": "杨雪宁",
+      "style": "偏现代组合",
+      "source_relation": "自由新拟",
+      "source": null,
       "note": ""
     },
     {
