@@ -101,7 +101,7 @@
     "dialect": "待家人莆仙／闽南实读，未冒充已验",
     "water_note": "川：字形或字义直接承水；属文化取名意象",
     "citation_kind": "意象化用",
-    "citation_note": "借回清倒影之景新拟"
+    "citation_note": "借素湍倒影之景新拟"
   },
   {
     "chapter": "唐宋诗词",
@@ -133,7 +133,7 @@
     "chapter": "唐宋诗词",
     "name": "杨泉音",
     "source": null,
-    "meaning": "泉流有声，言语清朗",
+    "meaning": "泉流有声，言语明朗",
     "pinyin": "yáng quán yīn",
     "tones": [
       2,
@@ -180,32 +180,6 @@
     "water_note": "泉：字形或字义直接承水；属文化取名意象",
     "citation_kind": "意象化用",
     "citation_note": "取松与泉的同诗意象"
-  },
-  {
-    "chapter": "唐宋诗词",
-    "name": "杨溪音",
-    "source": "青溪",
-    "meaning": "溪声如乐，灵秀可听",
-    "pinyin": "yáng xī yīn",
-    "tones": [
-      2,
-      1,
-      1
-    ],
-    "strokes": [
-      7,
-      13,
-      9
-    ],
-    "total": 29,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "借青溪水声之景新拟"
   },
   {
     "chapter": "唐宋诗词",
@@ -261,32 +235,6 @@
   },
   {
     "chapter": "唐宋诗词",
-    "name": "杨清越",
-    "source": "钟山",
-    "meaning": "石声清亮，有余韵",
-    "pinyin": "yáng qīng yuè",
-    "tones": [
-      2,
-      1,
-      4
-    ],
-    "strokes": [
-      7,
-      11,
-      12
-    ],
-    "total": 30,
-    "seed": true,
-    "water": [
-      "清"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "清：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "原句直取",
-    "citation_note": "原句直取"
-  },
-  {
-    "chapter": "唐宋诗词",
     "name": "杨映池",
     "source": "晓净",
     "meaning": "日映荷池，容光坦荡",
@@ -336,86 +284,6 @@
     "water_note": "泉：字形或字义直接承水；属文化取名意象",
     "citation_kind": "自由新拟",
     "citation_note": ""
-  },
-  {
-    "chapter": "唐宋诗词",
-    "name": "杨兰溪",
-    "source": "兰芽",
-    "meaning": "兰芽浸溪，柔韧向上",
-    "pinyin": "yáng lán xī",
-    "tones": [
-      2,
-      2,
-      1
-    ],
-    "strokes": [
-      7,
-      5,
-      13
-    ],
-    "total": 25,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "词前小序有兰溪，为地名，亦适合水岸意象",
-    "citation_quote": "寺临兰溪，溪水西流。"
-  },
-  {
-    "chapter": "唐宋诗词",
-    "name": "杨桃溪",
-    "source": "初湖",
-    "meaning": "桃花蘸水，生机清丽",
-    "pinyin": "yáng táo xī",
-    "tones": [
-      2,
-      2,
-      1
-    ],
-    "strokes": [
-      7,
-      10,
-      13
-    ],
-    "total": 30,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "借桃花蘸水之景新拟"
-  },
-  {
-    "chapter": "诗经楚辞",
-    "name": "杨清婉",
-    "source": "蔓草",
-    "meaning": "清扬婉兮，柔美而明朗",
-    "pinyin": "yáng qīng wǎn",
-    "tones": [
-      2,
-      1,
-      3
-    ],
-    "strokes": [
-      7,
-      11,
-      11
-    ],
-    "total": 29,
-    "seed": true,
-    "water": [
-      "清"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "清：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "从清扬婉兮隔字摘取",
-    "citation_quote": "有美一人，清扬婉兮。"
   },
   {
     "chapter": "诗经楚辞",
@@ -521,35 +389,9 @@
   },
   {
     "chapter": "老庄魏晋",
-    "name": "杨岩溪",
-    "source": "世言",
-    "meaning": "岩有骨，溪有韵，柔刚相济",
-    "pinyin": "yáng yán xī",
-    "tones": [
-      2,
-      2,
-      1
-    ],
-    "strokes": [
-      7,
-      8,
-      13
-    ],
-    "total": 28,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "借山水争流意象新拟"
-  },
-  {
-    "chapter": "老庄魏晋",
     "name": "杨雪音",
     "source": "咏絮",
-    "meaning": "咏雪之音，聪慧而清亮",
+    "meaning": "咏雪之音，聪慧而明朗",
     "pinyin": "yáng xuě yīn",
     "tones": [
       2,
@@ -570,32 +412,6 @@
     "water_note": "雪：字形或字义直接承水；属文化取名意象",
     "citation_kind": "意象化用",
     "citation_note": "借咏雪故事意会，非原文组合"
-  },
-  {
-    "chapter": "双姓",
-    "name": "杨清叶",
-    "source": null,
-    "meaning": "清水润叶，双木得养",
-    "pinyin": "yáng qīng yè",
-    "tones": [
-      2,
-      1,
-      4
-    ],
-    "strokes": [
-      7,
-      11,
-      5
-    ],
-    "total": 23,
-    "seed": true,
-    "water": [
-      "清"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "清：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "自由新拟",
-    "citation_note": ""
   },
   {
     "chapter": "双姓",
@@ -676,32 +492,6 @@
     "citation_note": "借水岸草木意象新拟，叶为母姓"
   },
   {
-    "chapter": "双姓",
-    "name": "杨溪玥",
-    "source": null,
-    "meaning": "溪水与神珠，清柔有光",
-    "pinyin": "yáng xī yuè",
-    "tones": [
-      2,
-      1,
-      4
-    ],
-    "strokes": [
-      7,
-      13,
-      8
-    ],
-    "total": 28,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "自由新拟",
-    "citation_note": ""
-  },
-  {
     "chapter": "史传经世",
     "name": "杨洛书",
     "source": "洛书",
@@ -730,7 +520,7 @@
     "chapter": "史传经世",
     "name": "杨洛安",
     "source": null,
-    "meaning": "洛水与安宁，清朗平和",
+    "meaning": "洛水与安宁，明朗平和",
     "pinyin": "yáng luò ān",
     "tones": [
       2,
@@ -755,7 +545,7 @@
     "chapter": "史传经世",
     "name": "杨沛文",
     "source": null,
-    "meaning": "精神充沛，文心清朗",
+    "meaning": "精神充沛，文心明朗",
     "pinyin": "yáng pèi wén",
     "tones": [
       2,
@@ -805,7 +595,7 @@
     "chapter": "唐宋诗词",
     "name": "杨洛兰",
     "source": null,
-    "meaning": "洛水与兰，清新温柔",
+    "meaning": "洛水与兰，温婉从容",
     "pinyin": "yáng luò lán",
     "tones": [
       2,
@@ -905,7 +695,7 @@
     "chapter": "诗经楚辞",
     "name": "杨洛芷",
     "source": null,
-    "meaning": "水岸与芳草，清秀有生气",
+    "meaning": "水岸芳草，秀丽有生气",
     "pinyin": "yáng luò zhǐ",
     "tones": [
       2,
@@ -1231,7 +1021,7 @@
     "chapter": "史传经世",
     "name": "杨泓安",
     "source": null,
-    "meaning": "清水深广，安定从容",
+    "meaning": "泓澄深广，安定从容",
     "pinyin": "yáng hóng ān",
     "tones": [
       2,
@@ -1283,7 +1073,7 @@
     "chapter": "唐宋诗词",
     "name": "杨泉月",
     "source": "秋暝",
-    "meaning": "清泉与明月相映",
+    "meaning": "山泉与明月相映",
     "pinyin": "yáng quán yuè",
     "tones": [
       2,
@@ -1304,32 +1094,6 @@
     "water_note": "泉：字形或字义直接承水；属文化取名意象",
     "citation_kind": "意象化用",
     "citation_note": "取同诗中的明月、清泉重组"
-  },
-  {
-    "chapter": "唐宋诗词",
-    "name": "杨映溪",
-    "source": "青溪",
-    "meaning": "溪水澄明，映照草木",
-    "pinyin": "yáng yìng xī",
-    "tones": [
-      2,
-      4,
-      1
-    ],
-    "strokes": [
-      7,
-      9,
-      13
-    ],
-    "total": 29,
-    "seed": false,
-    "water": [
-      "溪"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "溪：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "意象化用",
-    "citation_note": "取溪水与映照之景重组"
   },
   {
     "chapter": "诗经楚辞",
@@ -1361,7 +1125,7 @@
     "chapter": "诗经楚辞",
     "name": "杨雨竹",
     "source": null,
-    "meaning": "雨润青竹，清新有生机",
+    "meaning": "雨润青竹，挺秀有生机",
     "pinyin": "yáng yǔ zhú",
     "tones": [
       2,
@@ -1380,32 +1144,6 @@
     ],
     "dialect": "待家人莆仙／闽南实读，未冒充已验",
     "water_note": "雨：字形或字义直接承水；属文化取名意象",
-    "citation_kind": "自由新拟",
-    "citation_note": ""
-  },
-  {
-    "chapter": "诗经楚辞",
-    "name": "杨清竹",
-    "source": null,
-    "meaning": "清润如水，青竹挺秀",
-    "pinyin": "yáng qīng zhú",
-    "tones": [
-      2,
-      1,
-      2
-    ],
-    "strokes": [
-      7,
-      11,
-      6
-    ],
-    "total": 24,
-    "seed": false,
-    "water": [
-      "清"
-    ],
-    "dialect": "待家人莆仙／闽南实读，未冒充已验",
-    "water_note": "清：字形或字义直接承水；属文化取名意象",
     "citation_kind": "自由新拟",
     "citation_note": ""
   },
@@ -1517,7 +1255,7 @@
     "chapter": "双姓",
     "name": "杨冰悦",
     "source": null,
-    "meaning": "冰清明澈，悦然自得",
+    "meaning": "冰壶玉澈，悦然自得",
     "pinyin": "yáng bīng yuè",
     "tones": [
       2,
@@ -1564,5 +1302,255 @@
     "water_note": "沁：字形或字义直接承水；属文化取名意象",
     "citation_kind": "自由新拟",
     "citation_note": ""
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨洛晴",
+    "water": [
+      "洛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "洛水映晴光，明快温润",
+    "pinyin": "yáng luò qíng",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      12
+    ],
+    "total": 28,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨雨微",
+    "water": [
+      "雨"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "微雨润物，温婉从容",
+    "pinyin": "yáng yǔ wēi",
+    "tones": [
+      2,
+      3,
+      1
+    ],
+    "strokes": [
+      7,
+      8,
+      13
+    ],
+    "total": 28,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨汀月",
+    "water": [
+      "汀"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "水渚明月，澄澈素雅",
+    "pinyin": "yáng tīng yuè",
+    "tones": [
+      2,
+      1,
+      4
+    ],
+    "strokes": [
+      7,
+      5,
+      4
+    ],
+    "total": 16,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨映泓",
+    "water": [
+      "泓"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "荷塘水暖，澄泓映照",
+    "pinyin": "yáng yìng hóng",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      9,
+      8
+    ],
+    "total": 24,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "唐宋诗词",
+    "name": "杨沛音",
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "生机充沛，琴音悦耳",
+    "pinyin": "yáng pèi yīn",
+    "tones": [
+      2,
+      4,
+      1
+    ],
+    "strokes": [
+      7,
+      7,
+      9
+    ],
+    "total": 23,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨淇安",
+    "water": [
+      "淇"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "淇水安澜，安适从容",
+    "pinyin": "yáng qí ān",
+    "tones": [
+      2,
+      2,
+      1
+    ],
+    "strokes": [
+      7,
+      11,
+      6
+    ],
+    "total": 24,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "诗经楚辞",
+    "name": "杨润竹",
+    "water": [
+      "润"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "竹生水畔，温润挺拔",
+    "pinyin": "yáng rùn zhú",
+    "tones": [
+      2,
+      4,
+      2
+    ],
+    "strokes": [
+      7,
+      10,
+      6
+    ],
+    "total": 23,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "老庄魏晋",
+    "name": "杨若雪",
+    "water": [
+      "雪"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "若雪轻盈，纯净自持",
+    "pinyin": "yáng ruò xuě",
+    "tones": [
+      2,
+      4,
+      3
+    ],
+    "strokes": [
+      7,
+      8,
+      11
+    ],
+    "total": 26,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "双姓",
+    "name": "杨润叶",
+    "water": [
+      "润"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "温润滋木，草木繁茂",
+    "pinyin": "yáng rùn yè",
+    "tones": [
+      2,
+      4,
+      4
+    ],
+    "strokes": [
+      7,
+      10,
+      5
+    ],
+    "total": 22,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
+  },
+  {
+    "chapter": "双姓",
+    "name": "杨沛玥",
+    "water": [
+      "沛"
+    ],
+    "citation_kind": "自由新拟",
+    "citation_note": "",
+    "source": null,
+    "meaning": "充沛灵动，神珠映叶",
+    "pinyin": "yáng pèi yuè",
+    "tones": [
+      2,
+      4,
+      4
+    ],
+    "strokes": [
+      7,
+      7,
+      8
+    ],
+    "total": 22,
+    "dialect": "待家人莆仙／闽南实读",
+    "preference": true
   }
 ]

@@ -1,29 +1,5 @@
 [
   {
-    "source": "世言",
-    "url": "https://zh.wikisource.org/zh-hans/世說新語/言語",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "06bf31b3e633566a1f46e45f5f0c50c4a24952df6fdf3f9baeaa75e454168730",
-    "checked_on": "2026-11-03"
-  },
-  {
-    "source": "兰芽",
-    "url": "https://zh.wikisource.org/zh-hans/浣溪沙_(蘇軾)",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "04fa09a6a9ef9775dfab36045d648cf5bb1c9e455c9e460ed0cdb978788ba5fa",
-    "checked_on": "2026-11-03"
-  },
-  {
-    "source": "初湖",
-    "url": "https://zh.wikisource.org/zh-hans/春日遊湖上",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "78ec8b05cec1b87d3454a63cbd07ffffbaa72f066f7a3d230ba4e015018a8e2b",
-    "checked_on": "2026-11-03"
-  },
-  {
     "source": "叔田",
     "url": "https://zh.wikisource.org/zh-hans/詩經/叔于田",
     "status": 200,
@@ -125,30 +101,6 @@
     "status": 200,
     "quote_found": true,
     "text_sha256": "7b81305ff1b2c138d1f56dc7ce69fdd3bafc453c8a80a9d76cf473afa68bb829",
-    "checked_on": "2026-11-03"
-  },
-  {
-    "source": "蔓草",
-    "url": "https://zh.wikisource.org/zh-hans/詩經/野有蔓草",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "3353b02c9442f737f69058717e33a32a295367fba34c71c28ed3e3d0b31442b1",
-    "checked_on": "2026-11-03"
-  },
-  {
-    "source": "钟山",
-    "url": "https://zh.wikisource.org/zh-hans/石鐘山記",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "a296c4924d239f28f4fd7391e1f67bbdfa9b630ab4bc5d71155a4eeef9703af7",
-    "checked_on": "2026-11-03"
-  },
-  {
-    "source": "青溪",
-    "url": "https://zh.wikisource.org/zh-hans/青谿",
-    "status": 200,
-    "quote_found": true,
-    "text_sha256": "722d42d2525e3e964b3f0150074e710f8650d2c9a3b92058a0f62abbfee28928",
     "checked_on": "2026-11-03"
   }
 ]

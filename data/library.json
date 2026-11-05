@@ -19,14 +19,6 @@
     ]
   },
   {
-    "character": "以",
-    "strokes": 4,
-    "standard_index": 182,
-    "examples": [
-      "杨以清"
-    ]
-  },
-  {
     "character": "伊",
     "strokes": 6,
     "standard_index": 478,
@@ -47,7 +39,6 @@
     "strokes": 5,
     "standard_index": 306,
     "examples": [
-      "杨兰溪",
       "杨汀兰",
       "杨洛兰"
     ]
@@ -57,7 +48,16 @@
     "strokes": 6,
     "standard_index": 513,
     "examples": [
-      "杨冰悦"
+      "杨冰悦",
+      "杨冰月"
+    ]
+  },
+  {
+    "character": "初",
+    "strokes": 7,
+    "standard_index": 889,
+    "examples": [
+      "杨雨初"
     ]
   },
   {
@@ -66,7 +66,7 @@
     "standard_index": 238,
     "examples": [
       "杨汀叶",
-      "杨清叶"
+      "杨润叶"
     ]
   },
   {
@@ -74,16 +74,7 @@
     "strokes": 7,
     "standard_index": 3806,
     "examples": [
-      "杨洛妍",
-      "杨清妍"
-    ]
-  },
-  {
-    "character": "婉",
-    "strokes": 11,
-    "standard_index": 2483,
-    "examples": [
-      "杨清婉"
+      "杨洛妍"
     ]
   },
   {
@@ -94,8 +85,6 @@
       "杨沛宁",
       "杨洛宁",
       "杨润宁",
-      "杨清宁",
-      "杨溪宁",
       "杨雨宁",
       "杨雪宁"
     ]
@@ -109,7 +98,8 @@
       "杨沂安",
       "杨沛安",
       "杨泓安",
-      "杨洛安"
+      "杨洛安",
+      "杨淇安"
     ]
   },
   {
@@ -121,19 +111,19 @@
     ]
   },
   {
-    "character": "岩",
-    "strokes": 8,
-    "standard_index": 1106,
-    "examples": [
-      "杨岩溪"
-    ]
-  },
-  {
     "character": "川",
     "strokes": 3,
     "standard_index": 43,
     "examples": [
       "杨映川"
+    ]
+  },
+  {
+    "character": "微",
+    "strokes": 13,
+    "standard_index": 2965,
+    "examples": [
+      "杨雨微"
     ]
   },
   {
@@ -161,8 +151,7 @@
       "杨沁悦",
       "杨沛悦",
       "杨润悦",
-      "杨淇悦",
-      "杨清悦"
+      "杨淇悦"
     ]
   },
   {
@@ -196,7 +185,7 @@
     "examples": [
       "杨映川",
       "杨映池",
-      "杨映溪"
+      "杨映泓"
     ]
   },
   {
@@ -204,7 +193,8 @@
     "strokes": 12,
     "standard_index": 2611,
     "examples": [
-      "杨沛晴"
+      "杨沛晴",
+      "杨洛晴"
     ]
   },
   {
@@ -212,8 +202,9 @@
     "strokes": 4,
     "standard_index": 150,
     "examples": [
-      "杨泉月",
-      "杨溪月"
+      "杨冰月",
+      "杨汀月",
+      "杨泉月"
     ]
   },
   {
@@ -230,14 +221,6 @@
     "standard_index": 1750,
     "examples": [
       "杨沛柔"
-    ]
-  },
-  {
-    "character": "桃",
-    "strokes": 10,
-    "standard_index": 1844,
-    "examples": [
-      "杨桃溪"
     ]
   },
   {
@@ -270,7 +253,8 @@
     "standard_index": 3553,
     "examples": [
       "杨汀兰",
-      "杨汀叶"
+      "杨汀叶",
+      "杨汀月"
     ]
   },
   {
@@ -316,7 +300,9 @@
       "杨沛晴",
       "杨沛柔",
       "杨沛欣",
-      "杨沛然"
+      "杨沛然",
+      "杨沛玥",
+      "杨沛音"
     ]
   },
   {
@@ -337,6 +323,7 @@
     "strokes": 8,
     "standard_index": 4023,
     "examples": [
+      "杨映泓",
       "杨泓安"
     ]
   },
@@ -352,7 +339,7 @@
       "杨洛宁",
       "杨洛安",
       "杨洛星",
-      "杨洛清",
+      "杨洛晴",
       "杨洛玥",
       "杨洛芷",
       "杨洛雪",
@@ -372,9 +359,11 @@
     "strokes": 10,
     "standard_index": 2081,
     "examples": [
+      "杨润叶",
       "杨润宁",
       "杨润悦",
-      "杨润禾"
+      "杨润禾",
+      "杨润竹"
     ]
   },
   {
@@ -382,39 +371,8 @@
     "strokes": 11,
     "standard_index": 4965,
     "examples": [
+      "杨淇安",
       "杨淇悦"
-    ]
-  },
-  {
-    "character": "清",
-    "strokes": 11,
-    "standard_index": 2410,
-    "examples": [
-      "杨以清",
-      "杨洛清",
-      "杨清叶",
-      "杨清妍",
-      "杨清婉",
-      "杨清宁",
-      "杨清悦",
-      "杨清禾",
-      "杨清竹",
-      "杨清越"
-    ]
-  },
-  {
-    "character": "溪",
-    "strokes": 13,
-    "standard_index": 3012,
-    "examples": [
-      "杨兰溪",
-      "杨岩溪",
-      "杨映溪",
-      "杨桃溪",
-      "杨溪宁",
-      "杨溪月",
-      "杨溪玥",
-      "杨溪音"
     ]
   },
   {
@@ -430,8 +388,8 @@
     "strokes": 8,
     "standard_index": 3831,
     "examples": [
-      "杨洛玥",
-      "杨溪玥"
+      "杨沛玥",
+      "杨洛玥"
     ]
   },
   {
@@ -447,8 +405,7 @@
     "strokes": 5,
     "standard_index": 267,
     "examples": [
-      "杨润禾",
-      "杨清禾"
+      "杨润禾"
     ]
   },
   {
@@ -456,7 +413,7 @@
     "strokes": 6,
     "standard_index": 450,
     "examples": [
-      "杨清竹",
+      "杨润竹",
       "杨雨竹"
     ]
   },
@@ -497,7 +454,8 @@
     "strokes": 8,
     "standard_index": 1002,
     "examples": [
-      "杨若水"
+      "杨若水",
+      "杨若雪"
     ]
   },
   {
@@ -506,14 +464,6 @@
     "standard_index": 826,
     "examples": [
       "杨沁言"
-    ]
-  },
-  {
-    "character": "越",
-    "strokes": 12,
-    "standard_index": 2514,
-    "examples": [
-      "杨清越"
     ]
   },
   {
@@ -541,7 +491,9 @@
       "杨知雨",
       "杨锦雨",
       "杨雨乔",
+      "杨雨初",
       "杨雨宁",
+      "杨雨微",
       "杨雨棠",
       "杨雨竹",
       "杨雨舒"
@@ -553,6 +505,7 @@
     "standard_index": 2249,
     "examples": [
       "杨洛雪",
+      "杨若雪",
       "杨雪宁",
       "杨雪音"
     ]
@@ -578,8 +531,8 @@
     "strokes": 9,
     "standard_index": 1632,
     "examples": [
+      "杨沛音",
       "杨泉音",
-      "杨溪音",
       "杨雪音"
     ]
   }
